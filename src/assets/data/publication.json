@@ -1,0 +1,52 @@
+{
+    "post": [
+        {
+            "id": 1,
+            "title": "RDscan: A New Method for Improving Germline and Somatic Variant Calling Based on Read Depth Distribution",
+            "img": "public8",
+            "fileLink": "/download/publication/RDscan.pdf"
+        },
+        {
+            "id": 2,
+            "title": "Pan-cancer analysis of whole genomes",
+            "img": "public7",
+            "fileLink": "/download/publication/s41586_020_1969_6.pdf"
+        },
+        {
+            "id": 3,
+            "title": "Biomarker LEPRE1 induces pelitinib‑specifc drug responsiveness by regulating ABCG2 expression and tumor transition states in human leukemia and lung cancer",
+            "img": "public6",
+            "fileLink": "/download/publication/s41598-022-06621-w.pdf"
+        },
+        {
+            "id": 4,
+            "title": "Cancer Drug Response Profle scan (CDRscan): A Deep Learning Model That Predicts Drug Efectiveness from Cancer Genomic Signature",
+            "img": "public5",
+            "fileLink": "/download/publication/s41598-018-27214-6.pdf"
+        },
+        {
+            "id": 5,
+            "title": "Identification of somatic mutations using whole-exome sequencing in Korean patients with acute myeloid leukemia",
+            "img": "public4",
+            "fileLink": "/download/publication/s12881-017-0382-y.pdf"
+        },
+        {
+            "id": 6,
+            "title": "Prevalence of Rare Genetic Variations and Their Implications in NGS-data Interpretation",
+            "img": "public3",
+            "fileLink": "/download/publication/Prevalence_of_Rare_Genetic_Variations_and_Their_Im.pdf"
+        },
+        {
+            "id": 7,
+            "title": "HLAscan: genotyping of the HLA region using next-generation sequencing data",
+            "img": "public2",
+            "fileLink": "/download/publication/HLAscan.pdf"
+        },
+        {
+            "id": 8,
+            "title": "Development of the variant calling algorithm, ADIScan, and its use to estimate discordant sequences between monozygotic twins",
+            "img": "public1",
+            "fileLink": "/download/publication/gky445.pdf"
+        }
+    ]
+}

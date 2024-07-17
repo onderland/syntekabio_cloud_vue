@@ -1,0 +1,548 @@
+:root {
+  --stb-white: #ffffff;
+  --stb-black: #000000;
+  --stb-deep-gray: #151515;
+  --stb-gray: #999999;
+  --stb-dark-gray: #575757;
+  --stb-thin-gray: #ebebeb;
+  --stb-light-gray: #bbbbbb;
+  --stb-blue: #00adfd;
+  --stb-red: #ff375f;
+  --stb-yellow: #fde01e;
+  --stb-green: #0dbb9c;
+  --stb-pink: #f58abe;
+  --stb-coral: #f58a8e;
+  --stb-purple: #5e5ce6;
+  --stb-bg-dark: #1c1c1e;
+  --stb-bg-light: #f3f5f7;
+  --stb-bg-popup: #222222;
+
+  --stb-primary: var(--stb-blue);
+  --stb-secondary: var(--stb-red);
+
+  --stb-font-pretendard: 'Pretendard', -apple-system, BlinkMacSystemFont,
+    system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo',
+    'Noto Sans KR', 'Malgun Gothic', sans-serif;
+
+  --stb-font-muted: var(--stb-light-gray);
+  --stb-font-color: var(--stb-black);
+
+  --stb-font-body14: normal 14px/16px var(--stb-font-pretendard);
+  --stb-font-body14B: bold 14px/16px var(--stb-font-pretendard);
+  --stb-font-body16: normal 16px/19px var(--stb-font-pretendard);
+  --stb-font-body16B: bold 16px/19px var(--stb-font-pretendard);
+  --stb-font-body20: normal 20px/25px var(--stb-font-pretendard);
+  --stb-font-body20B: bold 20px/25px var(--stb-font-pretendard);
+
+  --stb-font-display20B: bold 20px/24px var(--stb-font-pretendard);
+  --stb-font-display24B: bold 24px/28px var(--stb-font-pretendard);
+  --stb-font-display40B: bolder 40px/47px var(--stb-font-pretendard);
+
+  --stb-gradient: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.15),
+    rgba(255, 255, 255, 0)
+  );
+
+  --stb-body-font-family: var(--stb-font-pretendard);
+  --stb-body-font-weight: 400;
+  --stb-body-line-height: 1.5;
+  --stb-body-color: #212529;
+  --stb-body-bg: var(--stb-white);
+
+  --stb-border-color: var(--stb-light-silver);
+  --stb-border-radius: 8px;
+  --stb-border-radius-lg: 16px;
+  --stb-border-radius-xl: 24px;
+  --stb-border-radius-pill: 50rem;
+  --stb-border-radius-circle: 50%;
+
+  --stb-btn-transition: color 0.3s ease-in-out,
+    background-color 0.3s ease-in-out, border-color 0.3s ease-in-out,
+    box-shadow 0.3s ease-in-out;
+  --stb-input-transition: border-color 0.3s ease-in-out,
+    box-shadow 0.3s ease-in-out;
+  --stb-dropdown-transition: transform 0.3s ease-in-out,
+    opacity 0.3s ease-in-out;
+  --stb-collapse-transition: max-height 0.5s ease-in-out,
+    opacity 0.5s ease-in-out;
+  --stb-text-transition: color 0.18s ease-in-out;
+  --stb-image-transition: transform 0.3s ease-in-out;
+  --stb-header-subnav-transition: var(--stb-dropdown-transition);
+  --stb-modal-transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+  --stb-popup-transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+
+  --stb-zindex-header: var(--stb-zindex-sticky);
+  --stb-zindex-header-nav: var(--stb-zindex-fixed);
+  --stb-zindex-header-subnav: var(--stb-zindex-fixed);
+  --stb-zindex-dropdown: 1000;
+  --stb-zindex-sticky: 1020;
+  --stb-zindex-fixed: 1030;
+  --stb-zindex-offcanvas: 1040;
+  --stb-zindex-modal-backdrop: 1050;
+  --stb-zindex-modal: 1060;
+  --stb-zindex-popover: 1070;
+  --stb-zindex-tooltip: 1080;
+
+  --stb-spacer: 1rem;
+  --stb-spacer-0: 0;
+  --stb-spacer-1: calc(1rem / 4); /* 4 */
+  --stb-spacer-2: calc(1rem / 2); /* 8 */
+  --stb-spacer-3: 1rem; /* 16 */
+  --stb-spacer-4: calc(1rem * 1.5); /* 24 */
+  --stb-spacer-5: calc(1rem * 2); /* 32 */
+  --stb-spacer-6: calc(1rem * 2.5); /* 40 */
+  --stb-spacer-7: calc(1rem * 3); /* 48 */
+}
+
+:root [data-mode='dark'] {
+  --stb-font-muted: var(--stb-dark-gray);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth;
+  }
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html {
+  width: 100%;
+  min-height: 100%;
+}
+body {
+  width: 100%;
+  /* min-width: 1320px; */
+  height: 100vh;
+  background-color: var(--stb-body-bg);
+  color: var(--stb-font-color);
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: var(--stb-body-font-family);
+  font-size: 100%;
+  line-height: 1;
+  vertical-align: top;
+  color: var(--stb-body-font-color);
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+thead,
+tbody,
+tfoot,
+tr,
+td,
+th {
+  border-color: inherit;
+  border-style: solid;
+  border-width: 0;
+}
+thead,
+tbody,
+tfoot {
+  vertical-align: middle;
+} /* add this rule*/
+td,
+th,
+tr {
+  vertical-align: inherit;
+} /* add this rule */
+
+label {
+  display: inline-block;
+}
+
+button {
+  border-radius: 0;
+  border: 0;
+  background: 0;
+  padding: 0;
+  margin: 0;
+  border-width: 0px;
+}
+button:focus:not(:focus-visible) {
+  outline: 0;
+}
+
+input,
+button,
+select,
+optgroup,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+[role='button'] {
+  cursor: pointer;
+}
+
+select {
+  word-wrap: normal;
+}
+select:disabled {
+  opacity: 1;
+}
+
+[list]::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+button,
+[type='button'],
+[type='reset'],
+/* [type='submit'] {
+  -webkit-appearance: button;
+} */
+button:not(:disabled),
+[type='button']:not(:disabled),
+[type='reset']:not(:disabled),
+[type='submit']:not(:disabled) {
+  cursor: pointer;
+}
+
+::-moz-focus-inner {
+  padding: 0;
+  border-style: none;
+}
+
+textarea {
+  resize: vertical;
+}
+
+fieldset {
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+legend {
+  float: left;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 0.5rem;
+  font-size: calc(1.275rem + 0.3vw);
+  line-height: inherit;
+}
+@media (min-width: 1200px) {
+  legend {
+    font-size: 1.5rem;
+  }
+}
+legend + * {
+  clear: left;
+}
+
+em {
+  font-style: normal;
+}
+
+::-webkit-datetime-edit-fields-wrapper,
+::-webkit-datetime-edit-text,
+::-webkit-datetime-edit-minute,
+::-webkit-datetime-edit-hour-field,
+::-webkit-datetime-edit-day-field,
+::-webkit-datetime-edit-month-field,
+::-webkit-datetime-edit-year-field {
+  padding: 0;
+}
+
+::-webkit-inner-spin-button {
+  height: auto;
+}
+
+[type='search'] {
+  outline-offset: -2px;
+  /* -webkit-appearance: textfield; */
+}
+
+/* rtl:raw:
+[type="tel"],
+[type="url"],
+[type="email"],
+[type="number"] {
+  direction: ltr;
+}
+*/
+/* ::-webkit-search-decoration {
+  -webkit-appearance: none;
+} */
+
+::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+
+::-webkit-file-upload-button {
+  font: inherit;
+}
+
+::file-selector-button {
+  font: inherit;
+}
+
+::-webkit-file-upload-button {
+  font: inherit;
+  /* -webkit-appearance: button; */
+}
+
+output {
+  display: inline-block;
+}
+
+iframe {
+  border: 0;
+}
+
+summary {
+  display: list-item;
+  cursor: pointer;
+}
+
+progress {
+  vertical-align: baseline;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition-property: color, background-color, text-decoration-color,
+    border-color;
+  transition-duration: 0.3s;
+}
+button {
+  transition-property: color, background-color, border-color;
+  transition-duration: 0.3s;
+}
+
+button,
+input {
+  background-color: transparent;
+  border-color: transparent;
+}
+a {
+  background-color: transparent;
+}
+
+a,
+abbr,
+address,
+article,
+aside,
+audio,
+b,
+blockquote,
+body,
+br,
+button,
+canvas,
+caption,
+cite,
+code,
+col,
+data,
+datalist,
+dd,
+del,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hr,
+html,
+i,
+iframe,
+img,
+input,
+ins,
+stbd,
+label,
+legend,
+li,
+main,
+mark,
+meter,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+progress,
+q,
+s,
+samp,
+section,
+select,
+small,
+span,
+strong,
+sub,
+sup,
+table,
+td,
+textarea,
+th,
+time,
+u,
+ul,
+var,
+video {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}

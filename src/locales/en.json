@@ -1,0 +1,388 @@
+{
+  "main": {
+    "content": "AI Drug Discovery at your fingertips",
+    "dmc": {
+      "title": "DeepMatcher®",
+      "sub_title": "Accelerate Small Molecule Hit Discovery and Lead Optimization Based on Physics and Deep Learning",
+      "content": "Understanding interactions between small molecules and their target proteins is crucial for drug discovery. DeepMatcher® is a compound-protein interaction (CPI) prediction platform that offers a unique opportunity to accelerate hit discovery, hit-to-lead, and lead optimization processes. DeepMatcher® offers CPI prediction based on our proprietary biophysics-informed deep learning and large chemical spaces, thereby enabling more accurate discovery of compounds with novel structures.\n\nDeepMatcher® has been successfully applied across protein families such as kinases, G protein coupled receptors (GPCR), and nuclear receptors.\n\nModularity of the DeepMatcher® platform offers a broad scope of services such as DeepMatcher®-Hit and DeepMatcher®-Lead. DeepMatcher®-Hit conducts a comprehensive screening to discover hit compounds using up to 1 billion compound library. DeepMatcher®-Lead performs hit-to-lead and lead optimization process by in silico design using a given scaffold generating 100K derivatives to improve binding affinity.",
+      "faq": {
+        "title": "FAQ",
+        "view": "View",
+        "download": "Download"
+      },
+      "video": {
+        "title": "DeepMatcher®",
+        "content": "Play",
+        "intro": "Intro",
+        "guide": "User Guide"
+      },
+      "hit_screening": {
+        "title": "Hit Screening",
+        "content": "Identify hit candidates against a target protein of interest. Our physics-based deep learning technology offers rapid screening and improved likelihood of identification of novel compounds by computing compound target interaction."
+      },
+      "lead_optimization": {
+        "title": "Lead Optimization",
+        "content": "Enable hit-to-lead and lead optimization by in silico design of up to 100K derivatives enumerating a single R-group at a time or all R-groups simultaneously and screen for compounds with improved binding affinity."
+      },
+      "dmclead": {
+        "list": [
+          "Sequential application of DMC-CDD, DMC-GAP, DMC-SCR, and DMC-MD modules.",
+          "More than 50,000 substitutable R-group database",
+          "Provide new derivatives expected to increase binding affinity with minimum of human bias."
+        ]
+      }
+    },
+    "neoars": {
+      "title": "NEO-ARS™",
+      "neoantigen_prediction": {
+        "title": "Neoantigen Prediction",
+        "content": "Discover neoantigens to develop cancer vaccines and T cell therapeutics by 3D structure-based predict on of peptide-MHC (pMHC) and pMHC-TCR interactions"
+      }
+    },
+    "ngsars": {
+      "title": "NGS-ARS®",
+      "ngs_precision_medicine": {
+        "title": "NGS Precision Medicine & Clinical Trial support Platform",
+        "content": "Provide reliable precision medical services accumulated through years of experience in NGS panel testing and clinical practice, which can support pipelines in genomic analysis specialized for solid cancer, blood cancer, rare genetic diseases and HLA haplotyping."
+      }
+    },
+    "pgmars": {
+      "title": "PGM-ARS™",
+      "biomarker_development": {
+        "title": "Biomarker Development (Personal Genome Medicine {'|'} PGM)",
+        "content": "Support the discovery of biomarkers related to the cause of chronic and multi-complex diseases through an AI platform for predicting multiple mutations"
+      }
+    },
+    "supercomputing_infra": {
+      "title": "Supercomputing infra",
+      "content": "STB AI platform enables high-throughput screening using supercomputing resources with a large number of CPU and GPU. Experience the fast service offered by STB’s supercomputing infrastructure.",
+      "sw_power": {
+        "title": "S/W Power",
+        "list": [
+          "Reinforcement of analysis and evaluation standards through the establishment of MD-level self-score system",
+          "Optimal pose prediction through the creation of 20,000 conformers",
+          "AI-based derivative design for optimization"
+        ]
+      },
+      "hw_power": {
+        "title": "H/W Power",
+        "content": "High-performance 10,000 CPU/GPU to perform large scale computational processing"
+      },
+      "compounds_db": {
+        "title": "Compounds DB",
+        "content": "More than 1 billion STB compound library & 50K R-group library"
+      },
+      "supercomputing_center": {
+        "title": "Supercomputing Center",
+        "content": "STB owns AI Supercomputing Center"
+      }
+    },
+    "stb_cloud_security": {
+      "title": "STB CLOUD Security Notice",
+      "network_security_infrastructure": {
+        "title": "Network Security Infrastructure",
+        "content": "STB CLOUD is established on a top tier security system to protect user information and data. The firewall system blocks unauthorized access and prevents malicious attacks, and customers' valuable information and data are protected by anti-malware technology to react against viruses and malware."
+      },
+      "encrypted_data_transfer": {
+        "title": "Encrypted data transfer",
+        "content": "STB CLOUD adopts an international SSL certificate that has been certified by WebTrust to secure user information by encrypting data exchanged when all users access and use services."
+      },
+      "protected_customer_data_and_privacy": {
+        "title": "Protected customer data and privacy",
+        "content": "STB CLOUD complies with the Personal Information Protection Act, the Information and Communication Network Utilization Promotion and Information Protection Act, and all relevant laws and regulations on personal information protection. It also offers a variety of security services that can directly protect customer data, allowing users to securely control and protect their data."
+      },
+      "threat_detection_response": {
+        "title": "Threat Detection Response",
+        "content": "The STB CLOUD security team conduct constant monitoring on various cyber activities to detect anomalies, attacks, threats, and actively respond to prevent leakage of sensitive information and service breaches."
+      },
+      "continuous_employee_awareness_and_cyber_security_improvement": {
+        "title": "Continuous employee awareness and cyber security improvement",
+        "content": "All employees of Syntekabio are trained a regular security program. All employees agree to the Code of Conduct to secure customer information. In particular, the security team is aware of new threats and other industry-related security issues in advance and regularly educates all employees to improve security awareness across the enterprise."
+      }
+    }
+  },
+  "dmc": {
+    "content": "Understanding interactions between small molecules and their target proteins is crucial for drug discovery. DeepMatcher® is a compound-protein interaction (CPI) prediction platform that offers a unique opportunity to accelerate hit discovery, hit-to-lead, and lead optimization processes. DeepMatcher® offers CPI prediction based on our proprietary biophysics-informed deep learning and large chemical spaces, thereby enabling more accurate discovery of compounds with novel structures.\n\nDeepMatcher® has been successfully applied across protein families such as kinases, G protein coupled receptors (GPCR), and nuclear receptors.\n\nModularity of the DeepMatcher® platform offers a broad scope of services such as DeepMatcher®-Hit and DeepMatcher®-Lead. DeepMatcher®-Hit conducts a comprehensive screening to discover hit compounds using up to 1 billion compound library. DeepMatcher®-Lead performs hit-to-lead and lead optimization process by in silico design using a given scaffold generating 100K derivatives to improve binding affinity.",
+    "caption": "Syntekabio DeepMatcher® Scheme",
+    "dmchit": {
+      "title": "DeepMatcher®-Hit",
+      "content": "DeepMatcher®-Hit conducts a comprehensive screening to discover hit compounds using up to 1 billion compound library.",
+      "list": [
+        "Sequential application of DMC-PRE, DMC-SCR, and DMC-MD modules.",
+        "Improve hit discover rate with a wide rage of compounds and precise prediction of 3D protein-ligand complex structure.",
+        "Provide AI predicted 3D structure of protein-ligand complex as a core for follow-up research and development stages."
+      ],
+      "pre_screening": {
+        "input": {
+          "title": "Input",
+          "content": "A billion small molecule compound list and target protein 3D structure"
+        },
+        "output": {
+          "title": "Output",
+          "content": "Top ranked 1,000 compounds"
+        },
+        "process": {
+          "title": "PRE-Screening",
+          "content": "Classification based on chemical properties of compounds\nComparing physico-chemical properties of target protein and compounds\nCNN based approach for brief 3D docking and screening"
+        }
+      },
+      "screening": {
+        "input": {
+          "title": "Input",
+          "content": "Pre-screened 1,000 compounds"
+        },
+        "output": {
+          "title": "Output",
+          "content": "Top ranked compounds and best binding pose information"
+        },
+        "process": {
+          "title": "Screening",
+          "content": "Computation of 3D target-compound binding structure\nGenerating more than 24,000 conformers for each compounds\nAI based best pose selection and evaluation of binding mode"
+        }
+      },
+      "md_simulation": {
+        "input": {
+          "title": "Input",
+          "content": "Screened ~200 compounds resulted from 3D screening"
+        },
+        "output": {
+          "title": "Output",
+          "content": "Grade1, 2 compound list with various scores"
+        },
+        "process": {
+          "title": "MD simulation",
+          "content": "Perform molecular dynamics simulations based on selected best conformers\nFilter false positive compounds based on binding pose and force field."
+        }
+      }
+    },
+    "dmclead": {
+      "title": "DeepMatcher®-Lead",
+      "content": "DeepMatcher®-Lead performs hit-to-lead and lead optimization process by in silico design using a given scaffold generating 100K derivatives to improve binding affinity.",
+      "list": [
+        "Sequential application of DMC-CDD, DMC-GAP, DMC-SCR, and DMC-MD modules.",
+        "More than 50,000 substitutable R-group database",
+        "Provide new derivatives expected to increase binding affinity with minimum of human bias."
+      ],
+      "chemical_derivative_design": {
+        "input": {
+          "title": "Input",
+          "content": "Identified scaffold with preferred substitution site and target protein"
+        },
+        "output": {
+          "title": "Output",
+          "content": "Synthesizable derivatives up to 100K"
+        },
+        "process": {
+          "title": "Chemical Derivative Design",
+          "content": "Specify the site of R-group substitution on customer’s given scaffold\nGenerate up to 100K derivatives with self established R-group database\nConfirm the synthesizability of generated derivatives"
+        }
+      },
+      "gap_analysis": {
+        "input": {
+          "title": "Input",
+          "content": "Synthesizable derivatives up to 100K"
+        },
+        "output": {
+          "title": "Output",
+          "content": "100 derivatives resulted from derivative specific 3D screening"
+        },
+        "process": {
+          "title": "GAP analysis",
+          "content": "Predict 3D protein-derivative binding structure based on scaffold AI based evaluation of binding affinity"
+        }
+      },
+      "lead_screening": {
+        "input": {
+          "title": "Input",
+          "content": "100 derivatives resulted from derivative specific 3D screening"
+        },
+        "output": {
+          "title": "Output",
+          "content": "Best binding poses for 100 derivatives"
+        },
+        "process": {
+          "title": "Lead Screening",
+          "content": "Predict 3D protein-compound binding structure\nGenerate more than 24,000 conformers for each compound\nAI based best pose selection and evaluation of binding mode"
+        }
+      },
+      "md_simulation": {
+        "input": {
+          "title": "Input",
+          "content": "100 derivatives resulted from 3D screening"
+        },
+        "output": {
+          "title": "Output",
+          "content": "Fully evaluated 100 derivative list with various scores"
+        },
+        "process": {
+          "title": "MD simulation",
+          "content": "Perform a molecular dynamic simulation based on selected best conformer\nFilter false positive compounds based on binding pose and force field"
+        }
+      }
+    },
+    "service": {
+      "title": "Service"
+    },
+    "learnmore": {
+      "title": "Learn more"
+    },
+    "expertise": {
+      "title": "Learn more",
+      "sars_cov_2": {
+        "title": "SARS-CoV-2",
+        "content": "In response to COVID-19 pandemic, Deepmatcher® was applied to ‘Drug Repurposing’ with about 3300 known drugs (approved and in development) for identifying potential therapeutics. on February 5th. As soon as structural information of 3CL protease of SARS-CoV-2 became available, AI screening using DeepMatcher® was commenced. As a result, Syntekabio obtained the IP in Korea, US, Taiwan and Japan."
+      },
+      "drug_repurposing": {
+        "title": "Drug Repurposing",
+        "content": "3,355 known drugs (approved and in development) have been extracted and tested for 471 target genes using Syntekabio's unique screening platforms since 2021. For instance, DeepMatcher® successfully discovered a total of 6,934 drug-target pairs. Their effectiveness is further tested with in vitro biochemical assays, then using in vivo and ex vivo assays."
+      },
+      "ido_tdo_inhibitor": {
+        "title": "IDO/TDO inhibitor",
+        "content": "As a project for immuno-oncology pipeline, Syntekabio discovered and developed an IDO/TDO dual inhibitor using Deepmatcher® platforms. The STB-C017, Company’s lead product candidate, has been shown that it can significantly enhance the immuno-oncologic effect on the target compared to epacadostat. Moreover, a combination therapy with anti-PD1/CTLA4 markedly delayed tumor growth and induced multiple complete remissions."
+      }
+    },
+    "services": {
+      "title": "Our services",
+      "dmchit": {
+        "title": "DeepMatcher®-Hit",
+        "list": [
+          "To begin, select a target protein of interest.",
+          "Screening results will be provided as a list of top ranked 100 compound ID, their 3D interaction maps, and physicochemical properties."
+        ]
+      },
+      "dmclead": {
+        "title": "DeepMatcher®-Lead",
+        "list": [
+          "Provide us with the structural information of your hit or lead compound and the name of the corresponding target protein.",
+          "Screening results will be provided as a list of top ranked 100 derivatives together with the corresponding 3D interaction maps and physicochemical properties."
+        ]
+      },
+      "contact_syntekabio": {
+        "title": "Contact Syntekabio for more collaboration opportunities",
+        "list": [
+          "Expanded list of DeepMatcher® screening-ready proteins",
+          "Homology modeling followed by DeepMatcher®-Hit or Lead for the target proteins without co-crystal structures.",
+          "Indication expansion or drug repurposing by reverse screening using DeepMatcher®",
+          "Long-term partnerships or co-development"
+        ]
+      }
+    }
+  },
+  "faq": [
+    {
+      "q1": "What resources do we need to use the CLOUD platform (STB CLOUD)?",
+      "a1": "You need a device to access internet. The next step is to register on the STB CLOUD. The STB CLOUD is an automated platform that provides a list of compounds potentially binding to a target protein (AI-Hit). To use this platform, users will only need to select the target protein of interest."
+    },
+    {
+      "q2": "What are the benefits of CLOUD computing instead of using software?",
+      "a2": "STB CLOUD computes automatically using the compound library and protein structure data through the supercomputer system. Using STB CLOUD can reduce maintenance, labors, and software and hardware costs. In addition, users can easily access to the STB CLOUD on any device, anytime anywhere."
+    },
+    {
+      "q3": "Do we need to be trained for the CLOUD platform? Do you provide any CLOUD platform training?",
+      "a3": "STB CLOUD is an automated, complete platform that requires no special training. In case, we’ll provide instructional manuals and video materials."
+    },
+    {
+      "q4": "What is the process of creating a CLOUD account?",
+      "a4": "You can create an account as Guest temporarily by entering the user's email, password and name. When the STB CLOUD use agreement is signed, your account will be fully activated to start your project."
+    },
+    {
+      "q5": "During the process, can we stop the project and alter the target?",
+      "a5": "Within two hours after submitting a project, you can cancel the project upon your request once. Please refer to the contract for use."
+    },
+    {
+      "q6": "Can we fully own the results? And not share with your company?",
+      "a6": "The ownership of outcomes of a project, according to the STB CLOUD service contract, belongs to the user. Please refer to Paragraph 2, Article 20 (Ownership of Rights) in STB CLOUD Use Agreement."
+    },
+    {
+      "q7": "I think DeepMatcher® is a drug screening platform, so if we tell you the name of one target protein we want, are you going to screen active substance candidates?",
+      "a7": "Yes. DeepMatcher® is a solution that finds active substance candidates for a target protein desired by customers."
+    },
+    {
+      "q8": "How is input and output provided when computing with DeepMatcher®?",
+      "a8": "Users input a target protein name of their interest and a selection of chemical library data is provided in the STB CLOUD. For output, the result reports (PDF, Excel) including the ranked AI-Hit candidate list are provided. In addition, you can check binding interactions between the candidates and the target protein in 3D."
+    },
+    {
+      "q9": "What is the cost of using DeepMatcher® for one protein?",
+      "a9": "Promotion: We guarantee the results until March 2023. Please see DeepMatcher® Use Agreement.\nHit1 -100,000$ (Derivation of AI hit candidates)\nHit2 - 150,000$ (Derivation of AI Hit candidates + in vitro assay by Syntekabio)"
+    },
+    {
+      "q10": "Is it possible to own and register an IP after validations under only user’s rights or sharing it with Syntekabio?",
+      "a10": "The intellectual property rights essentially belong to the user but depends on the agreement."
+    },
+    {
+      "q11": "After results are provided, how can we proceed if we want to collaborate with you further?",
+      "a11": "For follow-up collaboration inquiries, please contact at admin.usa{'@'}syntekabio.com. bd{'@'}syntekabio.com"
+    },
+    {
+      "q12": "What is DeepMatcher®-Hit?",
+      "a12": "DeepMatcher® is Syntekabio's AI small molecule drug discovery platform that provides active substance candidates by predicting interactions between protein (target protein) and compounds through AI deep learning physics calculations."
+    },
+    {
+      "q13": "What are the advantages of DeepMatcher®?",
+      "a13": "DeepMatcher® is an automatic AI-Hit discovery solution that derives effective substance candidates potentially binding to a target in three weeks through physics theory and AI deep learning. Facilitating supercomputing system and CLOUD platform can provide quick and accurate discovery of effective substance candidates and compound optimization. Physics theory and deep learning are used to perform 3D-based docking, generate 24,000 conformers per compound, and find the best poses. MD simulation based on the best poses is performed to screen out the compounds binding to the target with wrong poses."
+    },
+    {
+      "q14": "What is the range of molecular weights that can be calculated?",
+      "a14": "DeepMatcher® is designed for small molecular drug discovery. Typically, M.W. of small molecular drugs ranges from 200 to about 600 Dalton."
+    },
+    {
+      "q15": "Where is the source of your database?",
+      "a15": "The Zinc database is being applied to DeepMatcher®. Users can have access to a library of 1 billion commercially available compounds."
+    },
+    {
+      "q16": "How long will it take to provide AI-Hit candidates using DeepMatcher®?",
+      "a16": "You can receive the list of AI-Hit candidates in 3 weeks after submitting a Hit 1 project on the STB CLOUD. You can receive the validated Hits in 14 weeks after submitting a Hit 2 project (Hit discovery + in vitro assay by STB)"
+    },
+    {
+      "q17": "When substance candidates are screened in silico, how many libraries will be used and how many candidates will be provided?",
+      "a17": "We have access to and utilize 1.2 billion commercially available compound library, and 100 to 200 AI-Hit candidates will be provided based on the Grades."
+    },
+    {
+      "q18": "Drug-protein interaction analysis in 3-D structures can differ among other algorithms. Why are there different results in terms of accuracy?",
+      "a18": "Each algorithm uses different physical and chemical potentials. Different potentials give different binding energies between target and the ligands and governs the accuracy of the hit candidates."
+    },
+    {
+      "q19": "Does the calculation result remain on the server when using STB CLOUD?",
+      "a19": "No. The calculation results are not remained on the server. In addition, the meta-data generated in the process is deleted when the contract is terminated. For further information on data storage and related security policies, please see the Security System Introduction."
+    },
+    {
+      "q20": "Where does your server physically reside? Are there any legal ramifications regarding our data privacy?",
+      "a20": "The server is located at KT-IDC Center in Guro, Seoul, South Korea. (KT-IDC has international standard certification systems such as ISO14001, Green Data Center, ISO27001, and ISMS, and strictly protects and controls facilities, security management and cyber security management.)"
+    },
+    {
+      "q21": "Who has access to our data in the CLOUD? What is your company policy for ensuring only authorized employees can access our data?",
+      "a21": "Data access is limited to system-specific operation personnel who are granted secure access. We conduct security training for system operators to control data access. In addition to controlling data access to physical facilities, security settings for storage access are applied for only authorized personnel to allow to use it."
+    },
+    {
+      "q22": "What security measures do you take?",
+      "a22": "Services and data are protected by physical security settings, blocking cyber attacks to security equipment and session encryptions."
+    },
+    {
+      "q23": "Which specific data transmissions do you encrypt?",
+      "a23": "From the moment the user connects to the CLOUD system, all the data transmitted and received through the session (login account information, input and receive various project related data, etc.) are encrypted with the SSL method to prevent malicious extortion and data decryption by third parties."
+    },
+    {
+      "q24": "What level of technical support is included in your standard SLA?",
+      "a24": "Failure and problem management (failure propagation, failure handling rate management, etc.), security measures (security measures, preventive inspections, security incident management, etc.). Technical support for data backup and performance management (maintenance of operation rate) are included."
+    },
+    {
+      "q25": "What are your procedures for suspected security violations on our data or your data?",
+      "a25": "Please figure out the extent of damages to your data and proceed with blocking/recovery measures for the data. Legal follow-up and damage compensation procedures will be carried out in accordance with the internal regulations and the contents of the contract."
+    }
+  ],
+  "footer": {
+    "address": {
+      "list": [
+        "1, Expo-ro, Yuseong-gu, Daejeon, 34126 Republic of Korea",
+        "425 Fifth Ave. Suite 505 New York, NY 10016 USA"
+      ]
+    },
+    "terms": {
+      "list": [
+        "Privacy Policy",
+        "Terms of Use",
+        "Official Site"
+      ]
+    }
+  }
+}

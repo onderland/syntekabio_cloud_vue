@@ -1,0 +1,39 @@
+{
+    "post": [
+        {
+            "id": 1,
+            "title" : "Hit identification for targeting Tyrosine Kinase EphA2",
+            "date" : "2022.10.21",
+            "img" : "study4",
+            "fileLink": "/download/studies/Hit_identification_for_targeting_Tyrosine_Kinase_EphA2.pdf"
+        },
+        {
+            "id": 2,
+            "title" : "Hit identification for targeting ABL Tyrosine Kinase 1",
+            "date" : "2022.11.14",
+            "img" : "study5",
+            "fileLink": "/download/studies/Hit_identification_for_targeting_ABL_Tyrosine_Kinase_1.pdf"
+        },
+        {
+            "id": 3,
+            "title" : "Accurate in silico prediction of the drug-target interactions for AI drug discovery",
+            "date" : "2023.03.05",
+            "img" : "study3",
+            "fileLink": "/download/studies/Accurate_in-silico_prediction_of_the_drug-target_interactions_for_AI_drug_discovery.pdf"
+        },
+        {
+            "id": 4,
+            "title" : "Discovering inhibitors with DeepMatcher® Platform",
+            "date" : "2023.03.05",
+            "img" : "study2",
+            "fileLink": "/download/studies/Discovering_inhibitors_with_DeepMatcher_Platform.pdf"
+        },
+        {
+            "id": 5,
+            "title": "Discovering new target of known drugs with DeepMatcher® Platform",
+            "date" : "2023.03.05",
+            "img" : "study1",
+            "fileLink": "/download/studies/Discovering_new_target_of_known_drugs_with_DeepMatcher_Platform.pdf"
+        }
+    ]
+}

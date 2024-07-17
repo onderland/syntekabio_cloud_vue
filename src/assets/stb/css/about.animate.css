@@ -1,0 +1,100 @@
+@keyframes fadeIn{
+  from{
+    opacity: 0;
+  }
+
+  to{
+    opacity: 1;
+  }
+}
+
+/* 스크롤시 fade-in 되는 애니메이션 */
+.main-contents .main-container{
+  opacity: 0;
+  transition: all 0.5s;
+}
+.main-contents.activeShow .main-container{
+  animation-name: fadeIn;
+  animation-duration: 0.7s;
+  animation-fill-mode: forwards;
+}
+#stb-about-home .main-contents.activeShow .materials .material-item{
+  opacity: 0;
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+#stb-about-home .main-contents.activeShow .materials .material-item:nth-of-type(1){
+  animation-delay: 0.5s;
+}
+#stb-about-home .main-contents.activeShow .materials .material-item:nth-of-type(2){
+  animation-delay: 0.8s;
+}
+#stb-about-home .main-contents.activeShow .materials .material-item:nth-of-type(3){
+  animation-delay: 1.1s;
+}
+#stb-about-home .main-contents.activeShow .materials .material-item:nth-of-type(4){
+  animation-delay: 1.4s;
+}
+
+/* 서브페이지 타이틀 애니메이션 */
+.section-header h2.title,
+.section-header h4.sub-title{
+  opacity: 0;
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+/* 메인페이지 접속시 애니메이션 */
+#stb-about-home .intro-content .intro-title,
+#stb-about-home .intro-content .slogan,
+#stb-about-home .intro-content .button-group{
+  opacity: 0;
+  transition: all 0.5s;
+}
+#stb-about-home .intro-content .intro-title,
+#stb-about-home .intro-content .slogan,
+#stb-about-home .intro-content .button-group{
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+#stb-about-home .intro-content .slogan{
+  animation-delay: 0.3s;
+}
+#stb-about-home .intro-content .button-group{
+  animation-delay: 0.3s;
+}
+
+/* 팝업 컨테이너 애니메이션 */
+#popup-container{
+  opacity: 0;
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+/* 페이지 이동시 단 1번만 작동하는 애니메이션 */
+.main-contents.fixedShow .main-container,
+.main-contents.fixedShow .main-container h3,
+.main-contents.fixedShow .main-container p,
+.main-contents.fixedShow .main-container .stb-table{
+  opacity: 0;
+}
+.main-contents.fixedShow .main-container,
+.main-contents.fixedShow .main-container h3,
+.main-contents.fixedShow .main-container p,
+.main-contents.fixedShow .main-container .stb-table{
+  animation: fadeIn;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+/* 아코디언 딜레이 삭제 */
+/* .main-contents.activeShow .accordion-item p{
+  animation-delay: 0.3s;
+} */
+.footer-component p{
+  opacity: 1;
+}

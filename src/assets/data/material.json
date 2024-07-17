@@ -1,0 +1,37 @@
+{
+    "post": [
+        {
+            "id": 1,
+            "addressName": "materialsDiscovery",
+            "date" : "2022.12.01",
+            "title" : "Hit-Discovery Performance by DeepMatcher",
+            "text" : "Our platform has worked to identify drug-like compounds for years, can increase the possibility of ideal AI-Hit discovery with a high success rate.",
+            "cardTitle" : "> 110",
+            "cardCaption" : "Identified active compounds",
+            "cardText" : "Compounds confirmed with in vitro efficacy below 10uM based on  the 2022 DMC v1.5 Project",
+            "img" : "material1"
+        },
+        {
+            "id": 2,
+            "addressName" : "materialsCoverage",
+            "date" : "2022.12.01",
+            "title" : "Target Coverage of AI-Model",
+            "text" : "More than 1491 druggable targets have designed to identify key compounds for first-in-class drug using deeper and smarter AI-Model",
+            "cardTitle" : "> 1491",
+            "cardCaption" : "Target coverage",
+            "cardText" : "AI models for more than 1491 targets pre-trained and designed to identify key compounds",
+            "img" : "material2"
+        },
+        {
+            "id": 3,
+            "addressName" : "materialsFinding",
+            "date" : "2022.12.01",
+            "title" : "Disease Indication coverage",
+            "text" : "AI Hit finding program based on integrated AI programs provides a better understanding of target-diseases associations",
+            "cardTitle" : "70%",
+            "cardCaption" : "Indication coverage",
+            "cardText" : "AI models for about 516 diseases from 747 indications suggested by therapeutic target database(TTD)",
+            "img" : "material3"
+        }
+    ]
+}

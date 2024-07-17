@@ -1,0 +1,580 @@
+@import '../../font/pretendard.css';
+@import './_reboot.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+*:focus {
+  outline: none !important;
+}
+:root {
+    --stb-pretendard: "Pretendard", -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
+
+    --stb-font-notoSerif: 'Noto Serif', serif;
+    --stb-body-font-color: var(--stb-dark);
+    --stb-header-bg: #ffffff;
+    --stb-header-font-color: var(--stb-black);
+    --stb-header-divider: rgba(0, 0, 0, 0.24);
+    
+    --stb-header-logo: url("../images/common/logo/stb-ko-black.webp");
+    --stb-header-logo-white: url("../images/common/logo/stb-ko-white.webp");
+    --stb-header-logo-eng: url("../images/common/logo/stb-en-blue.webp");
+    --stb-header-logo-white-eng: url("../images/common/logo/stb-en-white.webp");
+
+    --cloud-logo-color: url("../images/common/logo/cloud-color.webp");
+    --cloud-logo-text: url("../images/common/logo/cloud-color-text.webp");
+    --cloud-logo-white: url("../images/common/logo/cloud-white.webp");
+
+    --stb-footer-color: var(--color-sky);
+
+    --stb-modal-bg-color: rgba(0,0,0,0.6);
+
+    --dmchit-bg-image: url("../images/common/bg/hit.webp");
+    --dmclead-bg-image: url("../images/common/bg/hit.webp");
+    --neoars-bg-image: url("../images/common/bg/hit.webp");
+    --ngsars-bg-image: url("../images/common/bg/hit.webp");
+    --pgmars-bg-image: url("../images/common/bg/hit.webp");
+
+    --font-h1: bold 3.75rem/120% 'Pretendard';
+    --font-h2: bold 2.5rem/120% 'Pretendard';
+    --font-h3: bold 2rem/130% 'Pretendard';
+    --font-h4: bold 1.5rem/140% 'Pretendard';
+    --font-h5: normal 1.375rem/140% 'Pretendard';
+    --font-h6: normal 1.25rem/140% 'Pretendard';
+
+    --font-default: normal 1.25rem/150% 'Pretendard';
+    --font-text: normal 1.125rem/150% 'Pretendard';
+
+    --caption: normal 1rem/120% 'Pretendard';
+    --button: bold 1rem/100% 'Pretendard';
+
+    --color-default: #242435;
+    --color-main: #123F83;
+    --color-sky: #567EAA;
+
+    --color-gray-1: #222222;
+    --color-gray-2: #444444;
+    --color-gray-3: #666666;
+    --color-gray-4: #888888;
+    --color-gray-5: #aaaaaa;
+    --color-gray-6: #cccccc;
+    --color-gray-7: #dddddd;
+    --color-gray-8: #eeeeee;
+
+    --color-white: #ffffff;
+
+    --ic_menu: url('../images/common/icon/ic_menu.svg');
+    --ic_close: url('../images/common/icon/ic_close.svg');
+}
+
+[class*='component'] {
+    position: relative;
+    width: 100%;
+    max-width: 1216px;
+    padding: 0 3rem;
+    margin: auto;
+    box-sizing: border-box;
+}
+[class$='viewer'] {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+[class^='icon-'] {
+    overflow: hidden;
+    display: inline-block;
+    background-repeat: no-repeat;
+    text-indent: -9999em;
+    background-position: 50%;
+    background-size: contain;
+}
+[class^='symbol-'] {
+    overflow: hidden;
+    display: inline-block;
+    background-repeat: no-repeat;
+    text-indent: -9999em;
+    background-position: 50%;
+}
+
+@media (max-width: 1280px) {
+    :root {
+        --stb-pretendard: "Pretendard", -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
+        --font-h1: bold 3.75rem/120% 'Pretendard';
+        --font-h2: bold 2.5rem/120% 'Pretendard';
+        --font-h3: bold 2rem/130% 'Pretendard';
+        --font-h4: bold 1.5rem/140% 'Pretendard';
+        --font-h5: normal 1.375rem/140% 'Pretendard';
+
+        --font-default: normal 1.25rem/150% 'Pretendard';
+        --font-text: normal 1.125rem/150% 'Pretendard';
+
+        --caption: normal 1rem/120% 'Pretendard';
+        --button: bold 1rem/100% 'Pretendard';
+    }
+}
+
+@media (max-width: 500px) {
+    :root {
+        --stb-pretendard: "Pretendard", -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
+        --font-h2: bold 1.8rem/120% 'Pretendard';
+        --font-h3: bold 1.5rem/130% 'Pretendard';
+        --font-h4: bold 1.25rem/140% 'Pretendard';
+        --font-h5: normal 1.2rem/140% 'Pretendard';
+
+        --font-default: normal 1rem/150% 'Pretendard';
+        --font-text: normal 1rem/150% 'Pretendard';
+
+        --caption: normal 0.8rem/120% 'Pretendard';
+        --button: bold 0.8rem/100% 'Pretendard';
+    }
+
+    [class*='component'] {
+        padding: 0 16px;
+    }
+}
+
+body.notscroll {
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  touch-action: none;
+}
+body.notscroll #stb {
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  touch-action: none;
+}
+
+/* default font ================================================== */
+h1 {
+    font: var(--font-h1);
+}
+h2 {
+    font: var(--font-h2);
+    color: var(--color-main);
+    text-align: center;
+}
+h3 {
+    font: var(--font-h3);
+    color: var(--color-default);
+    text-align: center;
+}
+h4 {
+    font: var(--font-h4);
+    color: var(--color-main);
+    padding-bottom: 0.8em;
+}
+h5 {
+    font: var(--font-h5);
+    padding-bottom: 0.5em;
+}
+h6 {
+    font: var(--font-h6);
+    padding-bottom: 0.5em;
+}
+
+h3.title {
+    margin-bottom: 2.5rem;
+}
+h4.text {
+    font: var(--font-h4);
+    color: var(--color-default);
+    font-weight: 300;
+}
+
+.bold {
+    font-weight: bold;
+}
+.white {
+    color: var(--color-white);
+}
+
+p {
+    font: var(--font-default);
+    color: var(--color-default);
+}
+p.text {
+    white-space: pre-line;
+    font: var(--font-text);
+}
+.caption {
+    font: var(--caption);
+}
+
+/* 텍스트 정렬 */
+.text-left{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+
+.color-text-main {
+    color: var(--color-main);
+}
+
+.bg-white .img {
+    box-shadow: 0 0 16px rgba(0,0,0,0.1);
+}
+
+.img {
+    display: flex;
+    width: 100%;
+    border-radius: 1rem;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+.img.transparent {
+    background-color: none;
+    box-shadow: none;
+}
+.img img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+.img.small img {
+    width: 80%;
+}
+.video {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+.video video {
+    width: 100%;
+    object-fit: cover;
+}
+.img.no-shadow {
+    box-shadow: none;
+    border-radius: 0;
+}
+a {
+    text-decoration: none;
+}
+
+
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1216px;
+    padding: 48px;
+}
+
+.min-component {
+  position: relative;
+  max-width: 1200px;
+  padding: 0 0;
+  margin: auto;
+}
+
+.row {
+    flex-flow: row wrap;
+}
+.column {
+    flex-flow: column wrap;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+.justify-space-between {
+    justify-content: space-between;
+}
+
+.d-flex {
+    display: flex;
+}
+.row {
+    flex-flow: row !important;
+}
+.column {
+    flex-flow: column !important;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+
+.col-1 {
+    flex: 1 1 0;
+    max-width: calc((100% / 12) * 1);
+}
+.col-2 {
+    flex: 1 1 0;
+    max-width: calc((100% / 12) * 2);
+}
+.col-3 {
+    flex: 1 1 0;
+    max-width: calc((100% / 12) * 3);
+}
+.col-4 {
+    flex: 1 1 0;
+    max-width: calc((100% / 12) * 4);
+}
+.col-5 {
+    flex: 1 1 0;
+    max-width: calc((100% / 12) * 5);
+}
+.col-6 {
+    flex: 1 1 0;
+    max-width: calc((100% / 12) * 6);
+}
+.col-7 {
+    flex: 1 1 0;
+    max-width: calc((100% / 12) * 7);
+}
+.col-8 {
+    flex: 1 1 0;
+    max-width: calc((100% / 12) * 8);
+}
+.col-9 {
+    flex: 1 1 0;
+    max-width: calc((100% / 12) * 9);
+}
+.col-10 {
+    flex: 1 1 0;
+    max-width: calc((100% / 12) * 10);
+}
+.col-11 {
+    flex: 1 1 0;
+    max-width: calc((100% / 12) * 11);
+}
+.col-12 {
+    flex: 1 1 0;
+    max-width: calc((100% / 12) * 12);
+}
+
+.mr-1 {
+    margin-right: 1rem;
+}
+.mr-2 {
+    margin-right: 2rem;
+}
+.mr-3 {
+    margin-right: 3rem;
+}
+.mr-4 {
+    margin-right: 4rem;
+}
+.mr-5 {
+    margin-right: 5rem;
+}
+
+.stb-about-main.hidden {
+    overflow: hidden;
+}
+
+/* Button ================================================== */
+.button {
+    display: inline-block;
+    font: var(--button);
+    padding: 10px 15px;
+}
+.button.line {
+    border: 1px solid var(--color-main);
+}
+.button.main {
+    color: var(--color-main);
+    border-color: var(--color-main);
+}
+
+/* Link ================================================== */
+.link-group {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+}
+a.link {
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1.25rem 2.5rem;
+    width: 100%;
+    max-width: 250px;
+    text-align: center;
+}
+
+a.link.primary {
+    background-color: var(--color-main);
+    color: var(--color-white);
+    border: 1px solid rgba(0,0,0,0);
+}
+a.link.primary:focus,
+a.link.primary:hover {
+    background-color: var(--color-white);
+    color: var(--color-main);
+    border: 1px solid var(--color-main);
+}
+
+a.link.sky {
+    background-color: var(--color-sky);
+    color: var(--color-white);
+    border: 1px solid rgba(0,0,0,0);
+}
+a.link.sky:focus,
+a.link.sky:hover {
+    background-color: var(--color-white);
+    color: var(--color-sky);
+    border: 1px solid var(--color-sky);
+}
+
+/* Link ================================================== */
+.main-contents {
+    background-color: #ffffff;
+}
+.main-contents .board {
+    background-color: #F3F5F7;
+    border-radius: 1rem;
+    padding: 10rem 3rem;
+}
+
+.main-contents:last-of-type {
+    padding-bottom: 7.5rem;
+}
+
+#stb-about-faq .main-contents {
+    background-color: rgba(0,0,0,0);
+    padding: 0;
+}
+.bg-white {
+    background-color: var(--color-white);
+}
+
+.about-section {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 2.5rem;
+}
+.about-section .about-article {
+    display: flex;
+    width: 100%;
+    gap: 0 2rem;
+}
+
+@media (max-width: 768px){
+    .about-section {
+        gap: 1rem;
+    }
+}
+
+
+.card-text .title .color-text-main {
+    margin-bottom: 24px;
+}
+
+.main-container {
+    gap: 2.5rem;
+}
+
+#stb {
+    display: flex;
+    flex-flow: column;
+    height: 100vh;
+}
+
+body::-webkit-scrollbar{
+    width: 0.5rem;
+    background-color: var(--color-gray-7);
+}
+body::-webkit-scrollbar-thumb{
+    background-color: var(--color-gray-2);
+    border-radius: calc(0.5rem / 2);
+}
+/* body */
+
+/* table START*/
+.stb-table {
+    width: 100%;
+}
+
+.stb-table td,
+.stb-table th {
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.stb-table tbody {
+    border-top: 2px solid var(--color-main);
+    border-bottom: 2px solid var(--color-main);
+}
+
+.stb-table tr {
+    border-bottom: 1px solid var(--color-white);
+}
+
+.stb-table th {
+    border-bottom: 2px solid var(--color-main);
+}
+
+.stb-table th p {
+    color: var(--color-sky);
+}
+/* table END*/
+
+
+/* 목록 스타일 */
+.list {
+padding-left: 18px;
+}
+.about-section .section-body .list li {
+font: var(--font-text);
+}
+.about-section .section-body .list.dotted li {
+list-style: disc;
+}
+dl dt {
+    font: var(--font-default);
+    font-weight: bold;
+}
+dl dd {
+    font: var(--font-default);
+    font-weight: normal;
+}
+
+/* 이미지 img image 영역 */
+
+.section-body .img {
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 24px;
+    overflow: hidden;
+}
+.section-body .img img {
+    display: block;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bg {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p-0{
+    padding: 0px !important;
+}
+
+.pt-0{
+    padding-top: 0px !important;
+}
+
+.pb-0{
+    padding-bottom: 0px !important;
+}

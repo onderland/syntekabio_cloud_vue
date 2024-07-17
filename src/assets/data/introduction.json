@@ -1,0 +1,36 @@
+{
+    "post": [
+        {
+            "id": 1,
+            "name": "technology",
+            "title": "DeepMatcher-Technology",
+            "date": "2023.03.16",
+            "img": "intro3",
+            "text": " Hello, nice to meet you in a virtual world. Syntekabio Intro"
+        },
+        {
+            "id": 2,
+            "name": "intro",
+            "title": "DeepMatcher-Intro",
+            "date": "2023.01.04",
+            "img": "intro2",
+            "text": "AI Hit discovery at your fingertips! DeepMatcher-Hit Intro"
+        },
+        {
+            "id": 3,
+            "name": "guide",
+            "title": "DeepMatcher-User Guide",
+            "date": "2022.10.26",
+            "img": "intro1",
+            "text": "Anytime, Anywhere just one click start DeepMatcher-Hit  User Guide"
+        },
+        {
+            "id": 4,
+            "name": "promotion",
+            "title": "Syntekabio ABS center",
+            "date": "2024.12.26",
+            "img": "intro4",
+            "text": "Syntekabio ABS center Promotion"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+
+.stb-about-sub.publication [class*='public'], .stb-about-sub.studies [class*='study'], .stb-about-sub.data-materials [class*='material'], .stb-about-sub.introduction [class*='intro']{width: 100%; height: 100%; background-position: center center; background-repeat: no-repeat; background-size: contain;}
+.stb-about-sub.publication [class*='public']{width: 100%; height: 100%; background-position: top; background-repeat: no-repeat; background-size: cover; background-position: top center; }
+
+.material1{ background-image: url(../images/sub02_materials/material-001.webp); }
+.material2{ background-image: url(../images/sub02_materials/material-002.webp); }
+.material3{ background-image: url(../images/sub02_materials/material-003.webp); }
+
+.intro1{ background-image: url(../images/sub03_introductions/intro-001.webp); }
+.intro2{ background-image: url(../images/sub03_introductions/intro-002.webp); }
+.intro3{ background-image: url(../images/sub03_introductions/intro-003.webp); }
+.intro4{ background-image: url(../images/sub03_introductions/intro-004.webp); }
+
+.public1{ background-image: url(../images/sub04_publications/public-001.webp); }
+.public2{ background-image: url(../images/sub04_publications/public-002.webp); }
+.public3{ background-image: url(../images/sub04_publications/public-003.webp); }
+.public4{ background-image: url(../images/sub04_publications/public-004.webp); }
+.public5{ background-image: url(../images/sub04_publications/public-005.webp); }
+.public6{ background-image: url(../images/sub04_publications/public-006.webp); }
+.public7{ background-image: url(../images/sub04_publications/public-007.webp); }
+.public8{ background-image: url(../images/sub04_publications/public-008.webp); }
+
+.study1{ background-image: url(../images/sub05_studies/study-001.webp); }
+.study2{ background-image: url(../images/sub05_studies/study-002.webp); }
+.study3{ background-image: url(../images/sub05_studies/study-003.webp); }
+.study4{ background-image: url(../images/sub05_studies/study-004.webp); }
+.study5{ background-image: url(../images/sub05_studies/study-005.webp); }

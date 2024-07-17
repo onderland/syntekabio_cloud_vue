@@ -1,0 +1,305 @@
+.stb-cursor-point {
+  cursor: pointer;
+}
+
+
+.aside-upload-dark {
+  background-color: var(--stb-card-bg) !important;
+}
+
+.btn-gray {
+  background-color: darkgray;
+}
+
+.btn-black {
+  background-color: #000000;
+}
+
+.chart-search .search-container {
+  display: flex;
+  height: 59px;
+  border-radius: var(--stb-border-radius-lg);
+  background-color: var(--stb-main-search-bg);
+}
+.chart-search .search-field {
+  flex: 1 1 auto;
+}
+.chart-search .search-option {
+  position: relative;
+  flex: 0 0 auto;
+  display: flex;
+  padding: 10px 10px 10px 24px;
+}
+.chart-search .search-option:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -15px;
+  width: 1px;
+  height: 31px;
+}
+.chart-search .search-option .btn-option {
+  padding: 0 20px;
+  height: 39px;
+  border-radius: 16px;
+}
+.chart-search .search-option .btn-option .text {
+  transition: var(--stb-btn-transition);
+}
+.chart-search .search-option .btn-option:hover .text {
+  color: var(--stb-btn-option-hover);
+}
+
+.chart-search .search-option .text {
+  font: var(--stb-font-body14B);
+}
+.chart-search .search-option .is-active {
+  background-color: var(--stb-main-search-active);
+}
+.chart-search .search-option .is-active .text {
+  color: var(--stb-main-search-font-active) !important;
+}
+.chart-search .form-search {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.chart-search .form-search-input {
+  width: 99%;
+  height: 59px;
+  padding: 20px 24px;
+  font: var(--stb-font-body16B);
+  color: var(--input-font-color);
+}
+
+.stb-edit .form-dropdown.is-active .form-dropdown-btn {
+  background-color: initial !important;
+}
+
+.vue-drag-select {
+  position: relative;
+  user-select: none;
+  text-align: center;
+}
+
+.vue-drag-select-box {
+  position: absolute;
+  z-index: 99;
+}
+
+/* Custom styling */
+.vue-drag-select .item {
+  display: inline-flex;
+  width: 55px;
+  height: 55px;
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: #ddd;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 10px;
+}
+
+.vue-drag-select .item.disabled {
+  background-color: #ff375f;
+}
+
+.vue-drag-select .item.active {
+  background-color: rgb(0, 162, 255);
+  color: #fff;
+}
+
+/* textarea scroll 임시처리 임시로 처리 */
+.stb-form-textarea::-webkit-scrollbar {
+  width: 8px;
+}
+.stb-form-textarea::-webkit-scrollbar-thumb {
+  background-color: var(--stb-dark-gray);
+  border-radius: 5px;
+}
+.stb-form-textarea::-webkit-scrollbar-track {
+  background-color: var(--stb-gray);
+  border-radius: 5px;
+  box-shadow: inset 0 0 5px white;
+}
+
+/*.stb-range-select {*/
+/*    max-height: 250px;*/
+/*    width: 230px;*/
+/*    overflow-y: auto;*/
+/*}*/
+
+/*.stb-range-select::-webkit-scrollbar {*/
+/*    width: 8px;*/
+/*}*/
+/*.stb-range-select::-webkit-scrollbar-thumb {*/
+/*    background-color: var(--stb-dark-gray);*/
+/*    border-radius: 5px;*/
+/*}*/
+/*.stb-range-select::-webkit-scrollbar-track {*/
+/*    background-color: var(--stb-gray);*/
+/*    border-radius: 5px;*/
+/*    box-shadow: inset 0 0 5px white;*/
+/*}*/
+
+.stb-range-select .dropdown-option-item.is-active {
+  background-color: var(--stb-dropdown-link-active-bg);
+}
+
+.stb-form-select {
+  max-height: 250px;
+  width: 180px;
+  overflow-y: auto;
+}
+
+.stb-form-select::-webkit-scrollbar {
+  width: 8px;
+}
+.stb-form-select::-webkit-scrollbar-thumb {
+  background-color: var(--stb-dark-gray);
+  border-radius: 5px;
+}
+.stb-form-select::-webkit-scrollbar-track {
+  background-color: var(--stb-gray);
+  border-radius: 5px;
+  box-shadow: inset 0 0 5px white;
+}
+
+.stb-param-input {
+  padding: 4px 4px;
+  width: 100%;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: var(--modal-input-bg);
+  color: inherit;
+}
+
+#popup-upload .upload-droppable.is-active {
+  border: 2px dashed var(--stb-primary);
+}
+
+.stb-text-white {
+  color: var(--stb-white) !important;
+}
+
+#popup-upload .upload-item .progress-value.stb-progress-fail {
+  background-color: var(--stb-red);
+}
+#popup-upload .upload-item .item-header .progress-percent.stb-progress-fail {
+  color: var(--stb-red);
+}
+
+#stb-footer {
+  z-index: 0;
+}
+
+.stb-return-text {
+  margin-top: 24px;
+  font: var(--stb-font-body16);
+  color: var(--main-header-font-color);
+  margin-left: 32px;
+}
+
+.att-text {
+  position: absolute;
+  margin-left: 6px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+/* 오늘자 표시 */
+.calendar-picker-container .datepicker-table .btn-day.is-today {
+  background-color: var(--stb-red);
+}
+.calendar-picker-container .datepicker-table .btn-day.is-today .text {
+  color: var(--stb-white);
+}
+
+.stb-btn-webhook {
+  width: 80px;
+  /*background: #00adfd !important;*/
+  font: var(--stb-font-body14B);
+  border-radius: 14px;
+  padding: 0 16px;
+}
+
+.stb-node-group {
+  display: flex;
+}
+
+.stb-node-group .el-grid {
+  margin-right: 5px !important;
+}
+
+.project-card .section-footer {
+  margin-bottom: 16px;
+  padding-right: 16px;
+}
+.project-card .section-footer .text {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font: var(--stb-font-body16B);
+}
+.project-card .section-footer .icon-progress {
+  margin-left: 8px;
+  width: 24px;
+  height: 24px;
+}
+.project-card .section-footer .icon-report-download {
+  margin-left: 8px;
+  width: 24px;
+  height: 24px;
+  background-image: var(--report-download);
+}
+
+.dropdown-option-text-skip {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 380px;
+  white-space: nowrap;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.break-spaces {
+  white-space: break-spaces;
+}
+
+.dl-terms dd a {
+  color: #0000ff;
+}
+
+.dl-terms b {
+  vertical-align: baseline;
+}
+
+.icon-close {
+  width: 30px;
+  height: 30px;
+  background-image: url(../stb/images/common/icon/ic_close_w.svg);
+}
+
+.button-group .action-text {
+  font-weight: 400;
+}
+.button-group .title-text {
+  font-size: 18px;
+}
+
+
+.platform-sub-title{
+  margin-bottom: 1rem;
+}
+
+.stb-about-sub .main-contents{
+  padding: 10rem 0rem;
+}

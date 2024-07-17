@@ -1,0 +1,156 @@
+{
+    "stb_cloud_security": [
+        {
+            "id": 1,
+            "title": "Network Security Infrastructure",
+            "text": "STB CLOUD is established on a top tier security system to protect user information and data. The firewall system blocks unauthorized access and prevents malicious attacks, and customers' valuable information and data are protected by anti-malware technology to react against viruses and malware."
+        },
+        {
+            "id": 2,
+            "title": "Encrypted data transfer",
+            "text": "STB CLOUD adopts an international SSL certificate that has been certified by WebTrust to secure user information by encrypting data exchanged when all users access and use services."
+        },
+        {
+            "id": 3,
+            "title": "Protected customer data and privacy",
+            "text": "STB CLOUD complies with the Personal Information Protection Act, the Information and Communication Network Utilization Promotion and Information Protection Act, and all relevant laws and regulations on personal information protection. It also offers a variety of security services that can directly protect customer data, allowing users to securely control and protect their data."
+        },
+        {
+            "id": 4,
+            "title": "Threat Detection Response",
+            "text": "The STB CLOUD security team conduct constant monitoring on various cyber activities to detect anomalies, attacks, threats, and actively respond to prevent leakage of sensitive information and service breaches."
+        },
+        {
+            "id": 5,
+            "title": "Continuous employee awareness and cyber security improvement",
+            "text": "All employees of Syntekabio are trained a regular security program. All employees agree to the Code of Conduct to secure customer information. In particular, the security team is aware of new threats and other industry-related security issues in advance and regularly educates all employees to improve security awareness across the enterprise."
+        }
+    ],
+    "faq": [
+        {
+            "id": 1,
+            "question": "What resources do we need to use the CLOUD platform (STB CLOUD)?",
+            "answer": "You need a device to access internet. The next step is to register on the STB CLOUD. The STB CLOUD is an automated platform that provides a list of compounds potentially binding to a target protein (AI-Hit). To use this platform, users will only need to select the target protein of interest."
+        },
+        {
+            "id": 2,
+            "question": "What are the benefits of CLOUD computing instead of using software?",
+            "answer": "STB CLOUD computes automatically using the compound library and protein structure data through the supercomputer system. Using STB CLOUD can reduce maintenance, labors, and software and hardware costs. In addition, users can easily access to the STB CLOUD on any device, anytime anywhere."
+        },
+        {
+            "id": 3,
+            "question": "Do we need to be trained for the CLOUD platform? Do you provide any CLOUD platform training?",
+            "answer": "STB CLOUD is an automated, complete platform that requires no special training. In case, we’ll provide instructional manuals and video materials."
+        },
+        {
+            "id": 4,
+            "question": "What is the process of creating a CLOUD account?",
+            "answer": "You can create an account as Guest temporarily by entering the user's email, password and name. When the STB CLOUD use agreement is signed, your account will be fully activated to start your project."
+        },
+        {
+            "id": 5,
+            "question": "During the process, can we stop the project and alter the target?",
+            "answer": "Within two hours after submitting a project, you can cancel the project upon your request once. Please refer to the contract for use."
+        },
+        {
+            "id": 6,
+            "question": "Can we fully own the results? And not share with your company?",
+            "answer": "The ownership of outcomes of a project, according to the STB CLOUD service contract, belongs to the user. Please refer to Paragraph 2, Article 20 (Ownership of Rights) in STB CLOUD Use Agreement."
+        },
+        {
+            "id": 7,
+            "question": "I think DeepMatcher® is a drug screening platform, so if we tell you the name of one target protein we want, are you going to screen active substance candidates?",
+            "answer": "Yes. DeepMatcher® is a solution that finds active substance candidates for a target protein desired by customers."
+        },
+        {
+            "id": 8,
+            "question": "How is input and output provided when computing with DeepMatcher®?",
+            "answer": "Users input a target protein name of their interest and a selection of chemical library data is provided in the STB CLOUD. For output, the result reports (PDF, Excel) including the ranked AI-Hit candidate list are provided. In addition, you can check binding interactions between the candidates and the target protein in 3D."
+        },
+        {
+            "id": 9,
+            "question": "What is the cost of using DeepMatcher® for one protein?",
+            "answer": "Promotion: We guarantee the results until March 2023. Please see DeepMatcher® Use Agreement.\nHit1 -100,000$ (Derivation of AI hit candidates)\nHit2 - 150,000$ (Derivation of AI Hit candidates + in vitro assay by Syntekabio)"
+        },
+        {
+            "id": 10,
+            "question": "Is it possible to own and register an IP after validations under only user’s rights or sharing it with Syntekabio?",
+            "answer": "The intellectual property rights essentially belong to the user but depends on the agreement."
+        },
+        {
+            "id": 11,
+            "question": "After results are provided, how can we proceed if we want to collaborate with you further?",
+            "answer": "For follow-up collaboration inquiries, please contact at admin.usa@syntekabio.com. bd@syntekabio.com"
+        },
+        {
+            "id": 12,
+            "question": "What is DeepMatcher®-Hit?",
+            "answer": "DeepMatcher® is Syntekabio's AI small molecule drug discovery platform that provides active substance candidates by predicting interactions between protein (target protein) and compounds through AI deep learning physics calculations."
+        },
+        {
+            "id": 13,
+            "question": "What are the advantages of DeepMatcher®?",
+            "answer": "DeepMatcher® is an automatic AI-Hit discovery solution that derives effective substance candidates potentially binding to a target in three weeks through physics theory and AI deep learning. Facilitating supercomputing system and CLOUD platform can provide quick and accurate discovery of effective substance candidates and compound optimization. Physics theory and deep learning are used to perform 3D-based docking, generate 24,000 conformers per compound, and find the best poses. MD simulation based on the best poses is performed to screen out the compounds binding to the target with wrong poses."
+        },
+        {
+            "id": 14,
+            "question": "What is the range of molecular weights that can be calculated?",
+            "answer": "DeepMatcher® is designed for small molecular drug discovery. Typically, M.W. of small molecular drugs ranges from 200 to about 600 Dalton."
+        },
+        {
+            "id": 15,
+            "question": "Where is the source of your database?",
+            "answer": "The Zinc database is being applied to DeepMatcher®. Users can have access to a library of 1 billion commercially available compounds."
+        },
+        {
+            "id": 16,
+            "question": "How long will it take to provide AI-Hit candidates using DeepMatcher®?",
+            "answer": "You can receive the list of AI-Hit candidates in 3 weeks after submitting a Hit 1 project on the STB CLOUD. You can receive the validated Hits in 14 weeks after submitting a Hit 2 project (Hit discovery + in vitro assay by STB)"
+        },
+        {
+            "id": 17,
+            "question": "When substance candidates are screened in silico, how many libraries will be used and how many candidates will be provided?",
+            "answer": "We have access to and utilize 1.2 billion commercially available compound library, and 100 to 200 AI-Hit candidates will be provided based on the Grades."
+        },
+        {
+            "id": 18,
+            "question": "Drug-protein interaction analysis in 3-D structures can differ among other algorithms. Why are there different results in terms of accuracy?",
+            "answer": "Each algorithm uses different physical and chemical potentials. Different potentials give different binding energies between target and the ligands and governs the accuracy of the hit candidates."
+        },
+        {
+            "id": 19,
+            "question": "Does the calculation result remain on the server when using STB CLOUD?",
+            "answer": "No. The calculation results are not remained on the server. In addition, the meta-data generated in the process is deleted when the contract is terminated. For further information on data storage and related security policies, please see the Security System Introduction."
+        },
+        {
+            "id": 20,
+            "question": "Where does your server physically reside? Are there any legal ramifications regarding our data privacy?",
+            "answer": "The server is located at KT-IDC Center in Guro, Seoul, South Korea. (KT-IDC has international standard certification systems such as ISO14001, Green Data Center, ISO27001, and ISMS, and strictly protects and controls facilities, security management and cyber security management.)"
+        },
+        {
+            "id": 21,
+            "question": "Who has access to our data in the CLOUD? What is your company policy for ensuring only authorized employees can access our data?",
+            "answer": "Data access is limited to system-specific operation personnel who are granted secure access. We conduct security training for system operators to control data access. In addition to controlling data access to physical facilities, security settings for storage access are applied for only authorized personnel to allow to use it."
+        },
+        {
+            "id": 22,
+            "question": "What security measures do you take?",
+            "answer": "Services and data are protected by physical security settings, blocking cyber attacks to security equipment and session encryptions."
+        },
+        {
+            "id": 23,
+            "question": "Which specific data transmissions do you encrypt?",
+            "answer": "From the moment the user connects to the CLOUD system, all the data transmitted and received through the session (login account information, input and receive various project related data, etc.) are encrypted with the SSL method to prevent malicious extortion and data decryption by third parties."
+        },
+        {
+            "id": 24,
+            "question": "What level of technical support is included in your standard SLA?",
+            "answer": "Failure and problem management (failure propagation, failure handling rate management, etc.), security measures (security measures, preventive inspections, security incident management, etc.). Technical support for data backup and performance management (maintenance of operation rate) are included."
+        },
+        {
+            "id": 25,
+            "question": "What are your procedures for suspected security violations on our data or your data?",
+            "answer": "Please figure out the extent of damages to your data and proceed with blocking/recovery measures for the data. Legal follow-up and damage compensation procedures will be carried out in accordance with the internal regulations and the contents of the contract."
+        }
+    ]
+}

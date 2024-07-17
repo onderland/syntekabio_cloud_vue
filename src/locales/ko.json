@@ -1,0 +1,387 @@
+{
+  "main": {
+    "content": "새로운 세상, 가장 앞선 기술을 만듭니다.",
+    "dmc": {
+      "title": "DeepMatcher®",
+      "sub_title": "물리학 이론과 딥러닝에 기반하여 유효물질 발굴과 화합물 최적화를 지원합니다.",
+      "content": "저분자 화합물 치료제는 표적 단백질과의 물리적 결합을 통해 단백질 기능을 제어하고 질병을 치료합니다. DeepMatcher®는 단백질-화합물 결합 원리를 학습한 AI 솔루션으로 성공적인 유효물질 발굴과 물질 최적화를 지원합니다. 광범위한 화합물 데이터베이스를 대상으로 하는 탐색과 물리학 이론에 입각한 결합력 예측으로 새로운 물질 발굴 가능성을 높였으며, 결합력 예측 시 최적의 결합자세 선별 과정이 수반되어 예측의 정확도를 크게 향상시켰습니다.\n\nDeepMatcher ®는 Kinase, GPCR, nuclear receptor 등 수백 종의 단백질에서 초기 후보물질을 발굴하고 최적화하는데 활용되고 있습니다. 또한 세부 기능별 다양한 모듈로 구성되어 있어 발굴 단계와 목적에 따라 특화된 서비스를 제시합니다. DeepMatcher®-Hit는 최대 10억 종에 달하는 화합물을 탐색하여 표적 단백질과 결합하는 유효물질 후보를 선별합니다. DeepMatcher®-Lead는 이미 확보된 scaffold를 기반으로 유도체를 자동 디자인하고 효능 향상이 기대되는 구조를 제시합니다.",
+      "faq": {
+        "title": "자주묻는 질문",
+        "view": "보기",
+        "download": "다운로드"
+      },
+      "video": {
+        "title": "DeepMatcher®",
+        "content": "재생",
+        "intro": "소개",
+        "guide": "사용자 가이드"
+      },
+      "hit_screening": {
+        "title": "Hit Screening",
+        "content": "질병의 원인이 되는 단백질(타겟 단백질)과 화합물 간 상호작용을 물리학적 계산을 통한 딥러닝 방식으로 예측하여 새로운 유효물질 후보를 신속하게 발굴합니다."
+      },
+      "lead_optimization": {
+        "title": "Lead Optimization",
+        "content": "특정 R-group / 모든 R-group 동시 최적화를 최대 10만 조합 자동 유도체 디자인 생성을 통해 유효성 향상이 예측되는 물질후보를 신속 발굴합니다."
+      },
+      "dmclead": {
+        "list": [
+          "DMC-CDD, DMC-GAP, DMC-SCR, DMC-MD 모듈 적용",
+          "R-group 치환에 필요한 대규모 building block 데이터베이스 활용과 모체 대비 유도체 결합력 비교로 human bias 최소화"
+        ]
+      }
+    },
+    "neoars": {
+      "title": "NEO-ARS™",
+      "neoantigen_prediction": {
+        "title": "Neoantigen Prediction",
+        "content": "3차원 단백질 구조에 기반하여 펩타이드-MHC 간 결합 및 T 세포반응 예측을 통하여 항암백신 및 T 세포치료제 개발을 위한 신생항원을 빠르고 정확히 예측합니다."
+      }
+    },
+    "ngsars": {
+      "title": "NGS-ARS®",
+      "ngs_precision_medicine": {
+        "title": "NGS Precision Medicine & Clinical Trial support Platform",
+        "content": "다년간 NGS유전자패널검사 인증기관 및 임상수행 경험으로 축적된 신뢰도 높은 정밀의료 플랫폼입니다. 고형암 · 혈액암 · 희귀유전질환 유전체 분석 및 HLA 하플로타이핑에 특화된 파이프라인을 서비스합니다."
+      }
+    },
+    "pgmars": {
+      "title": "PGM-ARS™",
+      "biomarker_development": {
+        "title": "Biomarker Development (Personal Genome Medicine {'|'} PGM)",
+        "content": "다중변이 예측 AI플랫폼을 통하여 만성 및 다중 복합성질환의 질병원인 연관 바이오마커 발굴을 지원합니다."
+      }
+    },
+    "supercomputing_infra": {
+      "title": "Supercomputing infra",
+      "content": "다량의 CPU 및 GPU 기반 슈퍼컴퓨팅 리소스를 사용하는 AI 플랫폼을 통해 높은 처리량 스크리닝을 가능하게 합니다. 신테카바이오가 제공하는 빠른 서비스를 경험하십시오.",
+      "sw_power": {
+        "title": "S/W Power",
+        "list": [
+          "MD수준의 자체 Score 체계 구축을 통한 분석 평가기준 강화",
+          "2만 개 Conformer 생성을 통한 최적의 포즈 예측",
+          "Optimization을 위한 AI기반 유도체 디자인"
+        ]
+      },
+      "hw_power": {
+        "title": "H/W Power",
+        "content": "대규모 계산 처리에 필요한 다량의 CPU 및 GPU 장비보유"
+      },
+      "compounds_db": {
+        "title": "Compounds DB",
+        "content": "10억 개 이상의 STB Chemical library 보유"
+      },
+      "supercomputing_center": {
+        "title": "Supercomputing Center",
+        "content": "슈퍼컴퓨팅 인프라 자체 보유"
+      }
+    },
+    "stb_cloud_security": {
+      "title": "STB CLOUD Security Notice",
+      "network_security_infrastructure": {
+        "title": "네트워크 보안 인프라",
+        "content": "STB CLOUD는 이용자 정보와 서비스의 안전을 지키기 위해 보안 인프라를 구성하여 공고한 보안체계 구축에 힘쓰고 있습니다. 허가되지 않은 접근을 차단하는 방화벽과 악의적인 공격행위를 차단하기 위한 침입차단시스템을 운영하고 있으며 바이러스 및 악성프로그램에 대응하기 위한 Anti-Malware 기술을 도입하여 고객의 소중한 정보와 서비스를 보호하고 있습니다."
+      },
+      "encrypted_data_transfer": {
+        "title": "전송 데이터 암호화",
+        "content": "STB CLOUD는 웹트러스트(WebTrust) 인증을 획득한 국제 공인 SSL인증서를 채택하여 모든 이용자의 접속 및 서비스 이용시 교환되는 데이터를 암호화하여 이용자 정보를 안전하게 보호하고 있습니다."
+      },
+      "protected_customer_data_and_privacy": {
+        "title": "고객 데이터 및 개인정보 보호",
+        "content": "STB CLOUD는 개인정보 보호법, 정보통신망 이용촉진 및 정보보호 등에 관한 법률 및 개인정보 보호에 관한 모든 관련 법령을 철저히 준수합니다. 또한, 고객 데이터를 직접 보호할 수 있는 다양한 보안 서비스를 제공하므로 이용자는 자신의 데이터를 안전하게 제어하고 보호할 수 있습니다."
+      },
+      "threat_detection_response": {
+        "title": "위협 탐지 대응",
+        "content": "STB CLOUD 보안팀은 다양한 사이버 위협에 대한 상시 모니터링을 수행하여 이상징후, 공격, 위협 등을 탐지하고 적극적인 대응을 통해 민감 정보 유출 방지, 서비스 침해 사고 예방을 위해 노력하고 있습니다."
+      },
+      "continuous_employee_awareness_and_cyber_security_improvement": {
+        "title": "직원 인식 개선 및 인적 보안 강화",
+        "content": "모든 신테카바이오의 직원은 정기적 보안 교육을 받습니다. 모든 직원은 고객 정보를 안전하게 보호하기 위한 행동 강령을 숙지하고 동의합니다. 특별히 보안 담당팀은 새로운 위협 및 기타 산업 관련 보안 문제를 선인지하여 모든 직원과 정기적으로 소통하여 전사적인 보안인식 개선에 힘쓰고 있습니다."
+      }
+    }
+  },
+  "dmc": {
+    "title": "DeepMatcher®는 물리학 이론과 딥러닝에 기반하여 유효물질 발굴과 화합물 최적화를 지원합니다.",
+    "caption": "Syntekabio DeepMatcher® 모식도",
+    "dmchit": {
+      "title": "DeepMatcher®-Hit",
+      "content": "최대 20억 종에 달하는 화합물을 탐색하여 표적 단백질과 결합하는 최적의 유효물질 후보군을 선별합니다.",
+      "list": [
+        "Pre-Screening, Screening, MD simulation 모듈의 순차적 적용",
+        "광범위한 화합물 데이터베이스 대상 탐색과 물리학 기반 예측으로 새로운 scaffold 발굴 가능성 향상",
+        "유효물질 후보군에 대한 결합 모드 정보 제공으로 후속 연구개발 단계 기초자료 제공"
+      ],
+      "pre_screening": {
+        "input": {
+          "title": "Input",
+          "content": "10억 여개 화합물 list 및 대상 단백질 구조"
+        },
+        "output": {
+          "title": "Output",
+          "content": "1,000개 후보 화합물"
+        },
+        "process": {
+          "title": "PRE-Screening",
+          "content": "화합물 특성 기준 분류\n대상 단백질 및 후보 화합물 특성 비교\nCNN 기반 3차원 구조 생성, 후보화합물 선별"
+        }
+      },
+      "screening": {
+        "input": {
+          "title": "Input",
+          "content": "1,000개 후보 화합물 및 대상 단백질 구조"
+        },
+        "output": {
+          "title": "Output",
+          "content": "후보 화합물 및 각각의 최적 결합자세 정보"
+        },
+        "process": {
+          "title": "Screening",
+          "content": "3차원 결합구조 생성\n대상 단백질-후보 화합물 별 24,000여개 결합가능자세 추가 생성\nAI 기반 최적 결합자세 도출 및 평가"
+        }
+      },
+      "md_simulation": {
+        "input": {
+          "title": "Input",
+          "content": "~200개 후보 화합물 및 각각의 최적 결합자세 정보"
+        },
+        "output": {
+          "title": "Output",
+          "content": "최종 Grade 1, 2 후보 화합물"
+        },
+        "process": {
+          "title": "MD simulation",
+          "content": "최적 결합자세 기반 분자동역학 시뮬레이션 진행\n구조 정보 기반 true/false 선별\nForce field 기반 각 구조 별 에너지 계산 및 true/false 선별"
+        }
+      }
+    },
+    "dmclead": {
+      "title": "DeepMatcher®-Lead",
+      "content": "확보된 scaffold를 기반으로 유도체 디자인과 결합력 예측을 수행, 기능 향상이 예측되는 유도체를 선별합니다.",
+      "list": [
+        "DMC-CDD, DMC-GAP, DMC-SCR, DMC-MD 모듈 적용",
+        "R-group 치환에 필요한 대규모 building block 데이터베이스 활용과 모체 대비 유도체 결합력 비교로 human bias 최소화"
+      ],
+      "chemical_derivative_design": {
+        "input": {
+          "title": "Input",
+          "content": "확인된 Scaffold 및 대상 단백질"
+        },
+        "output": {
+          "title": "Output",
+          "content": "10만 여개 유도체"
+        },
+        "process": {
+          "title": "Chemical Derivative Design",
+          "content": "지정된 R-group 치환 위치 설정\n자사 Database 를 이용한 10만개 이상의 유도체 생성\nin silico 합성 가능성 확인"
+        }
+      },
+      "gap_analysis": {
+        "input": {
+          "title": "Input",
+          "content": "10만 여개 유도체"
+        },
+        "output": {
+          "title": "Output",
+          "content": "100개 최종 후보 유도체"
+        },
+        "process": {
+          "title": "GAP analysis",
+          "content": "Scaffold 기반 유도체 별 결합자세 도출"
+        }
+      },
+      "lead_screening": {
+        "input": {
+          "title": "Input",
+          "content": "유도체 및 대상 단백질"
+        },
+        "output": {
+          "title": "Output",
+          "content": "100개 후보 화합물 및 각각의 최적 결합자세 정보"
+        },
+        "process": {
+          "title": "Lead Screening",
+          "content": "3차원 결합구조 생성\n대상 단백질-후보 화합물 별 24,000여개 결합가능자세 추가 생성\nAI기반 최적 결합자세 도출 및 평가"
+        }
+      },
+      "md_simulation": {
+        "input": {
+          "title": "Input",
+          "content": "100개 후보 화합물 및 각각의 최적 결합자세 정보"
+        },
+        "output": {
+          "title": "Output",
+          "content": "100개 후보 화합물"
+        },
+        "process": {
+          "title": "MD simulation",
+          "content": "최적 결합자세 기반 분자동역학 시뮬레이션 진행\n구조 정보 기반 true/false 선별\nForce field 기반 각 구조 별 에너지 계산 및 true/false 선별"
+        }
+      }
+    },
+    "service": {
+      "title": "Service"
+    },
+    "learnmore": {
+      "title": "Learn more"
+    },
+    "expertise": {
+      "title": "Expertise",
+      "sars_cov_2": {
+        "title": "SARS-CoV-2",
+        "content": "2020년 2월, SARS-CoV-2에 대한 대응으로 3300여개 FDA 승인 약물을 이용, Deepmatcher® 플랫폼을 통해 M protease / PL protease inhibitor 를 개발하였습니다. 현재, M protease inhibitor로 용도변경을 진행한 결과로 한국, 일본, 미국 등의 국가에서 특허를 획득하였습니다."
+      },
+      "drug_repurposing": {
+        "title": "Drug Repurposing",
+        "content": "약 600여개 단백질과 3500여개 known drug 간의 모든 결합 가능성을 Deepmatcher®를 통해 확인, 단백질-화합물 결합 약 7000여 조합에 대해 실험적 검증을 완료하였습니다. 다수의 kinase를 포함하는 enzyme protein들의 새로운 결합을 확인하였습니다."
+      },
+      "ido_tdo_inhibitor": {
+        "title": "IDO/TDO inhibitor",
+        "content": "면역항암제 개발의 일환으로 IDO1, TDO 단백질에 대해 동시에 작용할 수 있는 물질을 개발하여 동물실험을 통해 효능을 확인하였습니다. Deepmatcher®를 이용한 발굴과정과 optimization과정을 통하여 도출되었습니다."
+      }
+    },
+    "our_services": {
+      "title": "Our services",
+      "dmchit": {
+        "title": "DeepMatcher®-Hit",
+        "list": [
+          "표적 단백질과 화합물 라이브러리 구성을 선택하십시오.",
+          "4주 내 표적 단백질에 결합이 예상되는 100개의 화합물을 선별하여 제공합니다.",
+          "선별된 화합물은 각 화합물의 물리화학적 특성 정보, 표적 단백질과의 결합 모드 정보와 함께 제공됩니다. 효능 평가 시험과 유효물질의 최종 선별, 선도물질 도출과 최적화 과정에 참고하십시오"
+        ]
+      },
+      "dmclead": {
+        "title": "DeepMatcher®-Lead",
+        "list": [
+          "최적화를 진행하고자 하는 유효물질 또는 선도물질의 구조를 입력하고 해당 표적 단백질을 선택하십시오.",
+          "4주 내 모화합물 대비 결합력 향상이 예측되는 유도체 구조 250개를 선별하여 제공합니다.",
+          "각 유도체 구조의 물리화학적 특성 정보, 표적 단백질과의 결합 모드 정보와 함께 제공됩니다. 화합물 합성 및 효능 평가, 후속 최적화 과정에 참고하십시오."
+        ]
+      },
+      "contact_syntekabio": {
+        "title": "신테카바이오에 contact하여 DeepMatcher®를 이용한 더 다양한 협력 기회를 논의해 보십시오.",
+        "list": [
+          "더 많은 표적 단백질에 대한 DeepMatcher®-Hit, DeepMatcher®-Lead 서비스",
+          "Homology modeling으로 구조가 규명되지 않은 표적 단백질의 후보물질 탐색",
+          "약물 재창출 및 적응증 확장, 표적 단백질이 특정되지 않은 치료제 후보물질의 표적 후보 탐색",
+          "공동연구 등 장기적 파트너십"
+        ]
+      }
+    }
+  },
+  "faq": [
+    {
+      "q1": "클라우드 플랫폼을 사용하려면 어떤 리소스가 필요합니까?",
+      "a1": "어떤 리소스도 필요하지 않습니다. 단지, 타겟만 설정하면 됩니다. STB클라우드 플랫폼은 사용자의 타겟을 입력 받아 자동으로 파이프라인이 수행되어 AI-Hit 유효물질 후보를 도출하는 자동화된 플랫폼입니다. 따라서 사용자는 관심있는 타겟을 선정하면 됩니다."
+    },
+    {
+      "q2": "소프트웨어를 사용하는 대신 클라우드 컴퓨팅의 이점은 무엇입니까?",
+      "a2": "STB CLOUD는 슈퍼 컴퓨터 시스템을 통해 화합물 라이브러리 및 단백질 구조 데이터를 사용하여 자동으로 계산합니다. STB CLOUD를 사용하면 유지 관리, 노동력, 소프트웨어 및 하드웨어 비용을 줄일 수 있습니다. 또한 사용자는 언제 어디서나 모든 디바이스에서 쉽게 STB CLOUD에 액세스할 수 있습니다."
+    },
+    {
+      "q3": "클라우드 플랫폼을 사용하기 위해 교육을 받아야 합니까?",
+      "a3": "STB 클라우드는 자동화된 완성형 플랫폼으로 특별한 교육은 받지 않아도 됩니다. STB 클라우드는 사용설명 매뉴얼과 영상자료를 제공합니다."
+    },
+    {
+      "q4": "클라우드 계정을 만드는 프로세스는 무엇입니까?",
+      "a4": "사용자의 이메일, 비밀번호와 이름을 입력하고 Guest 로 임시계정을 생성할 수 있습니다. 플랫폼 사용계약이 체결되면 고객의 기관 계정으로 전환되어 실제 프로젝트를 실행할 수 있습니다. "
+    },
+    {
+      "q5": "진행 중에 프로젝트를 중단하고 대상을 변경할 수 있습니까?",
+      "a5": "프로젝트가 실행되고 2시간 내에는 1회에 한해서 프로젝트를 중단 또는 타겟 대상을 변경할 수 있습니다. 관련하여서는 사용계약서를 참고하시기 바랍니다. "
+    },
+    {
+      "q6": "우리가 그 결과를 완전히 소유 합니까? 당신의 회사와 공유하지는 않습니까?",
+      "a6": "STB 클라우드 서비스의 합법적 이용에 따른 이용 산출물의 소유권은 회원에 있습니다. 서비스 이용과 관련하여 STB 클라우드 통합 약관 제20조(권리의 귀속) 3항과 사용 계약서를 참고해주세요. "
+    },
+    {
+      "q7": "DeepMatcher®가 약물 스크리닝하는 플랫폼인 것 같은데, 저희가 원하는 target 단백질 하나의 이름을 알려드리면 약물을 스크리닝하는 것이 맞나요? ",
+      "a7": "네, 맞습니다. DeepMatcher®는 고객이 원하는 Target Protein에 대한 유효물질 후보를 찾는 솔루션입니다. "
+    },
+    {
+      "q8": "DeepMatcher®로 분석 시 input과 output이 어떻게 제공되나요?",
+      "a8": "Input에 필요한 Target Protein 및 Chemical library Data는 STB CLOUD에서 선택할 수 있습니다. Output은 AI-Hit 후보리스트와 결과 리포트(PDF, 엑셀)가 제공됩니다. 또한, 웹페이지의 미리보기에서 도출된 화합물과 Target 단백질 간 interaction 상태를 3D로 확인할 수 있습니다."
+    },
+    {
+      "q9": "하나의 단백질에 대해 DeepMatcher® 사용 시 비용은 어느정도 될까요?",
+      "a9": "Hit1 - 100,000$ (AI Hit 후보 도출 )\nHit2 - 150,000 $ (AI Hit 후보 도출 + in vitro assay by Syntekabio )\n또한 2023년 03월 까지 결과값 보증에 관련된 프로모션 리펀드 제도를 운영하고 있습니다."
+    },
+    {
+      "q10": "DeepMatcher®로 예측한 약물로 실제 실험으로 검증한 후 IP를 출원 혹은 등록할 때 단독으로 가능한지, 아니면 신테카바이오가 일정 지분을 가져가게 되나요?",
+      "a10": "적법한 STB CLOUD 사용계약에 따라 얻어진 결과물에 대한 지식재산권은 사용자에게 기본적으로 귀속됩니다. "
+    },
+    {
+      "q11": "결과가 나온 후에, 만약 우리가 당신과 더 많은 협업을 원한다면, 우리는 어떻게 진행할 수 있습니까?",
+      "a11": "후속 협업 문의는 admin.usa{'@'}syntekabio.com, bd{'@'}syntekabio.com로 연락주시기 바랍니다."
+    },
+    {
+      "q12": "DeepMatcher®-Hit 는 무엇인가요?",
+      "a12": "딥매처는 단백질(타겟 단백질)과 화합물 간 상호작용을 물리학적 계산을 통한 딥러닝 방식으로 예측하여 새로운 유효물질 후보를 발굴하는 신테카바이오의 AI신약개발플랫폼입니다."
+    },
+    {
+      "q13": "딥매처의 장점은 무엇인가요?",
+      "a13": "딥매처는 물리학 이론과 딥러닝 방식으로 고객의 타겟으로 부터 3주 안에 best 유효물질 후보를 도출하는 automatic AI-Hit discovery 솔루션입니다. 슈퍼컴퓨팅과 클라우드로 신약 유효물질 후보 발굴과 화합물 최적화를 신속하고 정확하게 예측합니다. 물리학 이론과 딥러닝으로 3D 기반 docking도킹 예측, 화합물당 24000개의 컨포머 생성하여 scoring스코어링 ranking 수행, large scale의 MD시뮬레이션은 슈퍼컴퓨팅 클라우드 기반 딥매처의 AI신약 기술입니다. "
+    },
+    {
+      "q14": "계산 가능한 분자량의 범위가 어떻게 되나요?",
+      "a14": "플랫폼에 탑재된 AI는 small molecule에 최적화 되어있습니다. 딥매처 small molecular 약물의 M.W.는 200 내지 약 600 달톤 범위에 있습니다."
+    },
+    {
+      "q15": "회사의 데이터베이스는 어디서 가져왔나요?",
+      "a15": "딥매처에는 Zinc 데이터베이스를 적용하고 있습니다. 상업적으로 구매가능한 10억 개의 화합물 라이브러리를 구성하였습니다."
+    },
+    {
+      "q16": "DeepMatcher® 분석 시 소요시간은 어느정도 걸릴까요?",
+      "a16": "Hit 1 service (AI-Hit 후보 도출) 프로젝트 신청 후 3주 후에 AI-Hit결과를 받아볼 수 있습니다. Hit 2 service (AI-Hit 후보 도출 + in vitro assay by Syntekabio) 프로젝트 신청 후 14주 후에 결과를 받아볼 수 있습니다. "
+    },
+    {
+      "q17": "약물을 in silico로 스크리닝 한다면 몇 개의 library에서 최종 몇 개의 후보 약물의 정보를 제공해 주시나요?",
+      "a17": "제공하는 library내 화합물 수는 10억개입니다. 도출된 후보 리스트는 grade에 기초하여 평균 100~200개를 제공합니다. "
+    },
+    {
+      "q18": "3차원 구조보기의 약물-단백질 상호작용 분석이 다른 알고리듬과 다른 경우가 있습니다. 정확도 측면에서 다른 결과가 나오는 이유는 무엇입니까?",
+      "a18": "각 알고리즘은 서로 다른 물리적 및 화학적 전위를 사용합니다. 다른 전위는 타겟과 리간드 사이에 다른 결합 에너지를 제공하고 AI-Hit후보의 정확도를 제어합니다."
+    },
+    {
+      "q19": "STB CLOUD 사용 시 계산 결과가 서버에 남나요?",
+      "a19": "아닙니다. 계산 결과는 서버에 남지 않습니다. 또한 최종 결과물(산출물)을 도출하는 과정에서 생성된 메타데이터는 정상적 계약의 종료 시 삭제됩니다. 데이터 저장 및 관련된 보안정책에 관한 내용들은 보안 시스템 소개를 참고해주세요. "
+    },
+    {
+      "q20": "서버가 물리적으로 어디에 위치합니까? 알아야 할 데이터 개인 정보 보호와 관련된 법적 영향이 있습니까?",
+      "a20": "STB 클라우드 서버는 대한민국 서울시 구로, KT-IDC 센터에 위치합니다. (KT-IDC는 세계가 인정한 ISO14001, Green Data Center, ISO27001, ISMS 등 국제표준인증제도를 보유하여 시설 및 보안관리, Cyber 보안관리를 엄격히 보호 통제하고 있습니다)"
+    },
+    {
+      "q21": "클라우드에서 데이터에 액세스할 수 있는 사람은 누구입니까? 공인된 직원만 당사의 데이터에 액세스할 수 있도록 보장하기 위한 귀사의 정책은 무엇입니까?",
+      "a21": "데이터 접근은 보안 접근 권한이 부여된 시스템 특정 운영직원에 한정됩니다. 데이터 접근 통제를 위해 시스템 운영인원 보안교육을 진행하고 있으며 데이터의 물리적 시설 접근 통제는 물론 스토리지 접근 보안설정을 다른 인프라 설정과 구별 적용하고 권한을 가진 운영인원만 사용 가능합니다. "
+    },
+    {
+      "q22": "어떤 보안 조치를 취하십니까?",
+      "a22": "물리적 보안 설정, 보안 장비를 통한 사이버 위협에 대한 직접 차단, 소프트웨어적 보안 설정을 통한 세션 암호화 등으로 서비스 및 데이터를 보호하고 있습니다."
+    },
+    {
+      "q23": "암호화하는 특정 데이터 전송은 무엇입니까?",
+      "a23": "사용자가 클라우드 서비스에 접속하는 순간부터 세션을 통한 모든 송수신 데이터(로그인 계정정보, 입력 및 수신하는 각종 프로젝트관련 데이터 등)가 SSL방식으로 암호화 되어 있어 제3자의 악의적 탈취 및 데이터 복호화를 방지하고 있습니다. "
+    },
+    {
+      "q24": "표준 SLA에는 어떤 수준의 기술 지원이 포함됩니까?",
+      "a24": "장애 및 문제 관리(장애 전파, 장애처리율 관리 등), 보안 조치(보안 조치, 예방점검, 보안 사고 관리 등), 데이터 백업, 성능관리(가동률 유지)를 위한 기술 지원이 포함됩니다. STB 클라우드 통합약관 및 SLA를 참조하십시오."
+    },
+    {
+      "q25": "당사의 데이터 또는 귀하의 데이터에 대한 보안 위반이 의심되는 경우 어떤 절차를 밟으십니까?",
+      "a25": "데이터 유출, 유실 등에 해당하는 보안 위반 사항이 발생한 경우 기술적으로는 데이터의 피해 범위를 파악하고 해당 데이터에 대한 접근차단/복구 조치를 진행하며 내규 및 계약 내용에 의거하여 법적인 후속 조치와 피해보상 절차를 진행하게 됩니다. "
+    }
+  ],
+  "footer": {
+    "address": {
+      "list": [
+        "대전광역시 유성구 엑스포로 1, 엑스포타워 1903호 (34126)",
+        "425 Fifth Ave. Suite 505 New York, NY 10016 USA"
+      ]
+    },
+    "terms": {
+      "list": [
+        "이용약관",
+        "개인정보 취급방침"
+      ]
+    }
+  }
+}
