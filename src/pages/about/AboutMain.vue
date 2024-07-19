@@ -33,8 +33,8 @@
       </div>
       <div class="flex">
         <div class="gap">
-          <div class="item">
-            <a href="#none" data-aos="fade-up">
+          <div class="item" data-aos="fade-up">
+            <router-link :to="{ name: 'AUTOBP' }">
               <div class="img-holder">
                 <span>
                   <img src="@/assets/static/images/new/main_item_1.jpg" alt="">
@@ -44,10 +44,10 @@
                 <p class="tt-1">Best-pose/HIT-SCR</p>
                 <p class="tt-2">AUTO-BP • 3bm GPT • LFS HIT-SCR • Zinc HIT-SCR • DR HIT-SCR</p>
               </div>
-            </a>
+            </router-link>
           </div>
-          <div class="item">
-            <a href="#none" data-aos="fade-up">
+          <div class="item" data-aos="fade-up">
+            <router-link :to="{ name: 'MOATOX' }">
               <div class="img-holder">
                 <span>
                   <img src="@/assets/static/images/new/main_item_2.jpg" alt="">
@@ -57,12 +57,12 @@
                 <p class="tt-1">MOA-TOX</p>
                 <p class="tt-2">MOA-ALL • MOA-TOX <br class="mo-show">MOA-KINASE • MOA-GPCR</p>
               </div>
-            </a>
+            </router-link>
           </div>
         </div>
         <div class="gap-2">
-          <div class="item">
-            <a href="#none" data-aos="fade-up">
+          <div class="item" data-aos="fade-up">
+            <router-link :to="{ name: 'NGSARS' }">
               <div class="img-holder">
                 <span>
                   <img src="@/assets/static/images/new/main_item_3.jpg" alt="">
@@ -72,10 +72,10 @@
                 <p class="tt-1">Biomarker</p>
                 <p class="tt-2">NGS-ARS</p>
               </div>
-            </a>
+            </router-link>
           </div>
-          <div class="item">
-            <a href="#none" data-aos="fade-up">
+          <div class="item" data-aos="fade-up">
+            <router-link :to="{ name: 'NEOARS' }">
               <div class="img-holder">
                 <span>
                   <img src="@/assets/static/images/new/main_item_4.jpg" alt="">
@@ -85,10 +85,10 @@
                 <p class="tt-1">Neoantigen prediction</p>
                 <p class="tt-2">NEO-ARS</p>
               </div>
-            </a>
+            </router-link>
           </div>
-          <div class="item">
-            <a href="#none" data-aos="fade-up">
+          <div class="item" data-aos="fade-up">
+            <router-link :to="{ name: 'CYP' }">
               <div class="img-holder">
                 <span>
                   <img src="@/assets/static/images/new/main_item_5.jpg" alt="">
@@ -98,7 +98,7 @@
                 <p class="tt-1">PGx haplotyping</p>
                 <p class="tt-2">CYP • HLA • KIR • ABO</p>
               </div>
-            </a>
+            </router-link>
           </div>
         </div>
       </div>

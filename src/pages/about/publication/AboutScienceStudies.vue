@@ -34,7 +34,7 @@
 
 <script setup>
 import { reactive } from 'vue';
-import AppSubPageHeader from '@/components/AppSubPageHeader.vue';
+// import AppSubPageHeader from '@/components/AppSubPageHeader.vue';
 import AppSubPageNav from '@/components/AppSubPageNav.vue';
 import AppPagenation from '@/components/AppPagenation.vue';
 import jsonDataStudies from '@/assets/data/studies.json';

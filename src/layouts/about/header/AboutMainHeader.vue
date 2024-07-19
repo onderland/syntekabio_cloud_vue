@@ -53,19 +53,29 @@
           <div class="box-mobile-nav">
             <div class="inner">
               <div class="top">
-                <h3><a href="#none"></a></h3>
+                <h3>
+                  <router-link :to="{ name: 'main' }" @click="onScrollTop(), onCloseNav()"></router-link>
+                </h3>
               </div>
               <div class="content">
                 <ul>
                   <li class="no-arrow">
-                    <a href="#none">Platform</a>
+                    <router-link :to="{ name: 'platform' }" @click="onScrollTop(), onCloseNav()">Platform</router-link>
                   </li>
-                  <li class="is-active">
+                  <li>
                     <a href="#none" @click="toggleActive">Data materials</a>
                     <div class="depth-2">
                       <ul>
-                        <li class="is-active"><a href="#none" @click="toggleActive">Data materials</a></li>
-                        <li><a href="#none" @click="toggleActive">Introduction to Technology</a></li>
+                        <li>
+                          <router-link :to="{ name: 'materials' }"
+                            @click="onScrollTop(), onCloseNav(), menuClose()">Data
+                            materials</router-link>
+                        </li>
+                        <li>
+                          <router-link :to="{ name: 'materials introduction' }"
+                            @click="onScrollTop(), onCloseNav(), menuClose()">Introduction to
+                            Technology</router-link>
+                        </li>
                       </ul>
                     </div>
                   </li>
@@ -73,8 +83,16 @@
                     <a href="#none" @click="toggleActive">Scientific publications</a>
                     <div class="depth-2">
                       <ul>
-                        <li><a href="#none" @click="toggleActive">Scientific Publications</a></li>
-                        <li><a href="#none" @click="toggleActive">Case studies</a></li>
+                        <li>
+                          <router-link :to="{ name: 'publication' }"
+                            @click="onScrollTop(), onCloseNav(), menuClose()">Scientific
+                            Publications</router-link>
+                        </li>
+                        <li>
+                          <router-link :to="{ name: 'publication studies' }"
+                            @click="onScrollTop(), onCloseNav(), menuClose()">publication
+                            studies</router-link>
+                        </li>
                       </ul>
                     </div>
                   </li>
@@ -197,13 +215,18 @@ watch(route, async () => {
   createScrollTrigger();
 });
 
-// toggleActive 함수 추가
 const toggleActive = (event) => {
   const parentLi = event.target.closest('li');
   if (parentLi) {
     parentLi.classList.toggle('is-active');
   }
 };
+
+const menuClose = () => {
+  document.querySelectorAll('.nav-mobile .is-active').forEach((e) => {
+    e.classList.remove('is-active');
+  });
+}
 </script>
 
 <style scoped>

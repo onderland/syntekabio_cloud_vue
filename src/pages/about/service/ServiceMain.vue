@@ -38,7 +38,7 @@
       <h3 data-aos="fade-up">Best-pose/HIT-SCR</h3>
       <div class="flex">
         <div class="item">
-          <a href="#none">
+          <router-link :to="{ name: 'AUTOBP' }">
             <div class="img-holder">
               <span data-aos="fade-up">
                 <img src="@/assets/static/images/new/img_1.jpg" alt="">
@@ -46,10 +46,10 @@
             </div>
             <p class="text-1" data-aos="fade-up">Auto-BP (Binding Pose)</p>
             <p class="text-2" data-aos="fade-up">A promising tool for expediting drug discovery</p>
-          </a>
+          </router-link>
         </div>
         <div class="item">
-          <a href="#none">
+          <router-link :to="{ name: '3bmGPT' }">
             <div class="img-holder">
               <span data-aos="fade-up">
                 <img src="@/assets/static/images/new/img_2.jpg" alt="">
@@ -58,10 +58,10 @@
             <p class="text-1" data-aos="fade-up">3bm GPT</p>
             <p class="text-2" data-aos="fade-up">AI-powered interpretation and analysis of protein-ligand binding
               interactions</p>
-          </a>
+          </router-link>
         </div>
         <div class="item">
-          <a href="#none">
+          <router-link :to="{ name: 'LFSHITSCR' }">
             <div class="img-holder">
               <span data-aos="fade-up">
                 <img src="@/assets/static/images/new/img_3.jpg" alt="">
@@ -69,10 +69,10 @@
             </div>
             <p class="text-1" data-aos="fade-up">LFS HIT-SCR</p>
             <p class="text-2" data-aos="fade-up">A novel, quickly, and reliable discovery solution for HIT screening</p>
-          </a>
+          </router-link>
         </div>
         <div class="item">
-          <a href="#none">
+          <router-link :to="{ name: 'ZincHITSCR' }">
             <div class="img-holder">
               <span data-aos="fade-up">
                 <img src="@/assets/static/images/new/img_4.jpg" alt="">
@@ -80,10 +80,10 @@
             </div>
             <p class="text-1" data-aos="fade-up">Zinc HIT-SCR</p>
             <p class="text-2" data-aos="fade-up">Easy, fast, and extensive discovery solution for HIT screening</p>
-          </a>
+          </router-link>
         </div>
         <div class="item">
-          <a href="#none">
+          <router-link :to="{ name: 'DRHITSCR' }">
             <div class="img-holder">
               <span data-aos="fade-up">
                 <img src="@/assets/static/images/new/img_5.jpg" alt="">
@@ -91,7 +91,7 @@
             </div>
             <p class="text-1" data-aos="fade-up">DR HIT-SCR</p>
             <p class="text-2" data-aos="fade-up">AI-enabled Drug Discovery Solution for Drug Repurposing</p>
-          </a>
+          </router-link>
         </div>
       </div>
     </div>
@@ -101,7 +101,7 @@
       <h3 data-aos="fade-up">Neoantigen prediction</h3>
       <div class="flex">
         <div class="item">
-          <a href="#none">
+          <router-link :to="{ name: 'NEOARS' }">
             <div class="img-holder">
               <span data-aos="fade-up">
                 <img src="@/assets/static/images/new/img_6.jpg" alt="">
@@ -109,7 +109,7 @@
             </div>
             <p class="text-1" data-aos="fade-up">NEO-ARS</p>
             <p class="text-2" data-aos="fade-up">Neoantigen Automatic Report System</p>
-          </a>
+          </router-link>
         </div>
       </div>
     </div>
@@ -119,7 +119,7 @@
       <h3 data-aos="fade-up">MoA & Tox</h3>
       <div class="flex">
         <div class="item">
-          <a href="#none">
+          <router-link :to="{ name: 'MOAALL' }">
             <div class="img-holder">
               <span data-aos="fade-up">
                 <img src="@/assets/static/images/new/img_7.jpg" alt="">
@@ -128,10 +128,10 @@
             <p class="text-1" data-aos="fade-up">MOA-ALL</p>
             <p class="text-2" data-aos="fade-up">Target profiling service, Find “Why” in your Science with Syntekabio
             </p>
-          </a>
+          </router-link>
         </div>
         <div class="item">
-          <a href="#none">
+          <router-link :to="{ name: 'MOATOX' }">
             <div class="img-holder">
               <span data-aos="fade-up">
                 <img src="@/assets/static/images/new/img_8.jpg" alt="">
@@ -139,10 +139,10 @@
             </div>
             <p class="text-1" data-aos="fade-up">MOA-TOX</p>
             <p class="text-2" data-aos="fade-up">In silico Toxicity profiling service</p>
-          </a>
+          </router-link>
         </div>
         <div class="item">
-          <a href="#none">
+          <router-link :to="{ name: 'MOAKINASE' }">
             <div class="img-holder">
               <span data-aos="fade-up">
                 <img src="@/assets/static/images/new/img_9.jpg" alt="">
@@ -150,10 +150,10 @@
             </div>
             <p class="text-1" data-aos="fade-up">MOA-Kinase</p>
             <p class="text-2" data-aos="fade-up">In silico kinase profiling service</p>
-          </a>
+          </router-link>
         </div>
         <div class="item">
-          <a href="#none">
+          <router-link :to="{ name: 'MOAGPCR' }">
             <div class="img-holder">
               <span data-aos="fade-up">
                 <img src="@/assets/static/images/new/img_10.jpg" alt="">
@@ -161,7 +161,7 @@
             </div>
             <p class="text-1" data-aos="fade-up">MOA-GPCR</p>
             <p class="text-2" data-aos="fade-up">In silico GPCR profiling service</p>
-          </a>
+          </router-link>
         </div>
       </div>
     </div>
@@ -171,7 +171,7 @@
       <h3 data-aos="fade-up">Biomarker</h3>
       <div class="flex">
         <div class="item">
-          <a href="#none">
+          <router-link :to="{ name: '' }">
             <div class="img-holder">
               <span data-aos="fade-up">
                 <img src="@/assets/static/images/new/img_11.jpg" alt="">
@@ -179,7 +179,7 @@
             </div>
             <p class="text-1" data-aos="fade-up">Gene-phasing</p>
             <p class="text-2" data-aos="fade-up">Haplotype phasing and genotype imputation</p>
-          </a>
+          </router-link>
         </div>
       </div>
     </div>
@@ -189,7 +189,7 @@
       <h3 data-aos="fade-up">PGx haplotyping</h3>
       <div class="flex">
         <div class="item">
-          <a href="#none">
+          <router-link :to="{ name: 'CYP' }">
             <div class="img-holder">
               <span data-aos="fade-up">
                 <img src="@/assets/static/images/new/img_12.jpg" alt="">
@@ -197,10 +197,10 @@
             </div>
             <p class="text-1" data-aos="fade-up">CYP</p>
             <p class="text-2" data-aos="fade-up">CYP genotype decision tool for personalized medicine</p>
-          </a>
+          </router-link>
         </div>
         <div class="item">
-          <a href="#none">
+          <router-link :to="{ name: 'HLA' }">
             <div class="img-holder">
               <span data-aos="fade-up">
                 <img src="@/assets/static/images/new/img_13.jpg" alt="">
@@ -208,10 +208,10 @@
             </div>
             <p class="text-1" data-aos="fade-up">HLA</p>
             <p class="text-2" data-aos="fade-up">HLA genotype decision tool for personalized medicine</p>
-          </a>
+          </router-link>
         </div>
         <div class="item">
-          <a href="#none">
+          <router-link :to="{ name: 'KIR' }">
             <div class="img-holder">
               <span data-aos="fade-up">
                 <img src="@/assets/static/images/new/img_14.jpg" alt="">
@@ -219,10 +219,10 @@
             </div>
             <p class="text-1" data-aos="fade-up">KIR</p>
             <p class="text-2" data-aos="fade-up">High resolution human KIR genotyping</p>
-          </a>
+          </router-link>
         </div>
         <div class="item">
-          <a href="#none">
+          <router-link :to="{ name: 'ABO' }">
             <div class="img-holder">
               <span data-aos="fade-up">
                 <img src="@/assets/static/images/new/img_15.jpg" alt="">
@@ -230,7 +230,7 @@
             </div>
             <p class="text-1" data-aos="fade-up">ABO</p>
             <p class="text-2" data-aos="fade-up">High resolution Blood group typing</p>
-          </a>
+          </router-link>
         </div>
       </div>
     </div>
@@ -246,7 +246,7 @@ import ScrollTrigger from 'gsap/ScrollTrigger';
 import AppSubTop from '@/components/AppSubTopService.vue';
 import SwiperComponent from '@/components/SwiperComponent.vue';
 
-import { Swiper, SwiperSlide } from 'swiper/vue';
+// import { Swiper, SwiperSlide } from 'swiper/vue';
 import 'swiper/css';
 
 gsap.registerPlugin(ScrollTrigger);
