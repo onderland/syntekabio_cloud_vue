@@ -41,7 +41,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  height: 100vsh;
+  height: 100svh;
   background: rgba(0, 0, 0, 0.8);
 }
 .box-mobile-nav .inner {
@@ -459,6 +459,7 @@
   position: absolute;
   bottom: 3px;
   right: 0;
+  pointer-events: none;
 }
 .gap-ser .box-card-link .flex .item a {
   display: block;
