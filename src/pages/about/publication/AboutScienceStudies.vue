@@ -1,6 +1,6 @@
 <template>
   <main class="stb-about-sub studies" id="stb-about-case">
-    <AppSubTop additionalClass="bg-4" additionalClass2="gap" title="PUBLICATION" :titleDelay="200" :textDelay="400"/>
+    <AppSubTop additionalClass="bg-4" additionalClass2="gap" title="PUBLICATION" text="" :titleDelay="200" :textDelay="400"/>
 
     <AppSubPageNav />
 
