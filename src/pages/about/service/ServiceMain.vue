@@ -1,7 +1,7 @@
 <template>
   <AppSubTop additionalClass="bg-1" title="Service" :titleDelay="200" :textDelay="400"
     text="AI Drug discovery<br class='mo-show'> at your fingertips" />
-  <SwiperComponent :items="swiperItems" ref="swiperRef" @swiper="onSwiper" @updateActive="updateActive" />
+  <!-- <SwiperComponent :items="swiperItems" ref="swiperRef" @swiper="onSwiper" @updateActive="updateActive" /> -->
   <div class="gap-ser">
     <div class="top-Text">
       <h3 data-aos="fade-up">Overview</h3>
