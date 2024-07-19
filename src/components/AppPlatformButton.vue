@@ -85,7 +85,8 @@ defineProps({
 }
 .platform-button {
   display: flex;
-  flex: 0 0 220px;
+  /* flex: 0 0 220px; */
+  flex: 0 0 110px;
   padding: 15px;
   justify-content: space-between;
   align-items: center;
