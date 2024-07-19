@@ -97,7 +97,9 @@
                     </div>
                   </li>
                   <li class="no-arrow">
-                    <a href="#none">Service</a>
+                    <router-link :to="{ name: 'ServiceMain' }" @click="onScrollTop(), onCloseNav()">
+                      Service
+                    </router-link>
                   </li>
                 </ul>
               </div>
